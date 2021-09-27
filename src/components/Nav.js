@@ -9,11 +9,11 @@ function Nav() {
   return (
     <nav class="navbar">
       <div class="brand-title">Levw</div>
-      <a href="#" class="toggle-button" onClick={onClickHandler}>
+      <span href="#" class="toggle-button" onClick={onClickHandler}>
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
-      </a>
+      </span>
       <div class={navClass}>
         <ul>
           <li>About</li>
