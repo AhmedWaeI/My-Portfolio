@@ -1,0 +1,8 @@
+Portfolio that contains:
+Name, Adress
+Roles
+Summary 
+Education
+Projects:
+ Games
+ Web
