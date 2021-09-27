@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+.container {
+  padding: 50px;
+}
+.hello {
+  display: flex;
+  justify-content: left;
+  font-size: 50px;
+  color: #30b8b2;
+  font-family: "Birthstone", cursive;
+}
+@media screen and (max-width: 650px) {
+  .hello {
+    font-size: 40px;
+  }
+}
+.myName {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  justify-content: center;
+  font-size: 60px;
+  color: #e8e8e6;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  border-bottom: #30b8b2 solid 3px;
+  border-image: linear-gradient(to left, #004b63, #30b8b2) 1 0;
+}
+@media screen and (max-width: 650px) {
+  .myName {
+    width: 100%;
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .myName {
+    width: 100%;
+    font-size: 35px;
+  }
+}
+.img {
+  margin-top: 20px;
+  width: 35%;
+  height: 30%;
+  border: #30b8b2 solid 6px;
+  color: #30b8b2;
+  border-radius: 50%;
+  animation-name: borderColor;
+  animation-iteration-count: infinite;
+  animation-duration: 700ms;
+  animation-timing-function: ease;
+  animation-direction: alternate;
+}
+
+@keyframes borderColor {
+  0% {
+    border-color: #121212;
+  }
+  33% {
+    border-color: #004b63;
+  }
+  66% {
+    border-color: #30b8b2;
+  }
+  100% {
+    border-color: #e8e8e6;
+  }
+}
+@media screen and (max-width: 650px) {
+  .img {
+    width: 85%;
+    height: 75%;
+  }
+}
+.imgcontainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.roles {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  color: #30b8b2;
+}
+
+.roles li {
+  margin-right: 5%;
+  margin-top: 3%;
+  font-size: 25px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+@media screen and (max-width: 650px) {
+  .roles {
+    flex-flow: column wrap;
+  }
+  .roles li {
+    font-size: 20px;
+  }
+}
