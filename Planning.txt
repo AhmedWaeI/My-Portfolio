@@ -1,8 +1,8 @@
 Portfolio that contains:
-Name, Adress
-Roles
-Summary 
-Education
-Projects:
+-Name/Roles/Slogan
+-AboutMe/Adress/Summary/Education
+-Projects:
  Games
  Web
+-Skills/Tools/Tech
+-Contact/Links
