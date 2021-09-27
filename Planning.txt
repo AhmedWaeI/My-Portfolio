@@ -1,9 +1,11 @@
 Portfolio that contains:
 -Name/Roles/Pic     ✅
--AboutMe/Adress/Summary/Education
+-AboutMe/Adress/Summary/Education ✅
 -Work/Projects:
  Games
  Web
 -Skills/Tools/Tech
 -Contact/Links
+
+
 
