@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 .navbar {
-  margin: 15px;
+  margin-top: 40px;
+  margin-right: 40px;
   display: flex;
   position: relative;
   justify-content: space-between;
@@ -8,6 +9,11 @@
   background-color: #121212;
   color: #30b8b2;
   font-family: "Roboto", sans-serif;
+}
+@media (max-width: 650px) {
+  .navbar {
+    margin: 15px;
+  }
 }
 
 .brand-title {

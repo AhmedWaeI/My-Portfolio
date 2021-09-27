@@ -7,14 +7,14 @@ function Nav() {
     if (navClass === "navbar-links active") setNavClass("navbar-links");
   }
   return (
-    <nav class="navbar">
-      <div class="brand-title">Levw</div>
+    <nav className="navbar">
+      <div className="brand-title">Levw</div>
       <span href="#" class="toggle-button" onClick={onClickHandler}>
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
       </span>
-      <div class={navClass}>
+      <div className={navClass}>
         <ul>
           <li>About</li>
           <li>Work</li>
