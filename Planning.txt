@@ -3,7 +3,9 @@ Portfolio that contains:
 -AboutMe/Adress/Summary/Education ✅
 -Work/Projects  ✅
 -Skills/Tools/Tech ✅
--Contact/Links
+-Contact/Links/Footer ✅
+-socials linkedin & github
+-Navlinks functionality
 
 project.css , app.module.css both only control the background
 
@@ -12,6 +14,8 @@ Each Project has:
     -Info
     -Github Link
     -pic
+
+
 
 After finished run build then move files to levw, maybe update the readme/description
 

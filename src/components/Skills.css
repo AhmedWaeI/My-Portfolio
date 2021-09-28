@@ -8,6 +8,7 @@
   /* align-items: center; */
   justify-content: space-around;
   height: 400px;
+  margin-bottom: 20px;
 }
 .mastercontainer p {
   color: #30b8b2;

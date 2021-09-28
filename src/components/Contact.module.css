@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+.emailcontainer {
+  display: flex;
+  flex-flow: column nowrap;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 650px) {
+  .emailcontainer {
+    font-size: 16px;
+  }
+}
+.emailcontainer span {
+  color: #30b8b2;
+}
+.emailcontainer p {
+  color: #e8e8e6;
+  width: 80%;
+  margin: auto;
+}
+.linkedin {
+  text-decoration: none;
+  color: #ff7a4f;
+  border-bottom: #ff7a4f solid 2px;
+}
+.email {
+  text-decoration: none;
+  border: #30b8b2 solid 2px;
+  width: 30%;
+  margin: auto;
+  color: #e8e8e6;
+  margin-top: 20px;
+  padding: 1px;
+  transition-duration: 400ms;
+  animation-name: borderColor;
+  animation-iteration-count: infinite;
+  animation-duration: 1000ms;
+  animation-timing-function: ease;
+  animation-direction: alternate;
+}
+.email:hover {
+  transform: translateX(10px);
+  box-shadow: 5px 5px#30B8B2;
+  animation-play-state: paused;
+}
+
+@keyframes borderColor {
+  0% {
+    border-color: #30b8b2;
+  }
+
+  100% {
+    border-color: #004b63;
+  }
+}

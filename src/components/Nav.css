@@ -8,7 +8,7 @@
   align-items: center;
   background-color: transparent;
   color: #30b8b2;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
 }
 @media (max-width: 650px) {
   .navbar {
