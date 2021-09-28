@@ -1,11 +1,20 @@
 Portfolio that contains:
 -Name/Roles/Pic     ✅
 -AboutMe/Adress/Summary/Education ✅
--Work/Projects:
- Games
- Web
+-Work/Projects  ✅
 -Skills/Tools/Tech
 -Contact/Links
+
+project.css , app.module.css both only control the background
+
+Each Project has:
+    -Name
+    -Info
+    -Github Link
+    -pic
+
+
+
 
 
 

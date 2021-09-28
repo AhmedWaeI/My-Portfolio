@@ -1,6 +1,6 @@
 .seven {
   position: relative;
-  background: #121212;
+  background: transparent;
   width: 90%;
   max-width: 500px;
   padding: 2em;
@@ -50,5 +50,5 @@
   border-bottom: 1px solid #30b8b2;
   border-top: 1px solid #30b8b2;
   height: 5px;
-  background-color: #121212;
+  background-color: transparent;
 }

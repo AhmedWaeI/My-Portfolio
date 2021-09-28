@@ -25,7 +25,7 @@
   text-align: center;
   font-family: "Source Sans Pro", sans-serif;
   border-bottom: #30b8b2 solid 3px;
-  border-image: linear-gradient(to left, #004b63, #30b8b2) 1 0;
+  border-image: linear-gradient(to left, #121212, #004b63) 1 0;
 }
 @media screen and (max-width: 650px) {
   .myName {
@@ -43,7 +43,7 @@
   margin-top: 20px;
   width: 35%;
   height: 30%;
-  border: #30b8b2 solid 6px;
+  border: #30b8b2 solid 7px;
   color: #30b8b2;
   border-radius: 50%;
   animation-name: borderColor;

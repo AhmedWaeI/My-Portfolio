@@ -9,6 +9,13 @@
   font-family: "Roboto", sans-serif;
   height: 200px;
   font-size: 20px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 650px) {
+  .aboutme {
+    height: 350px;
+    font-size: 16px;
+  }
 }
 .aboutme span {
   color: #30b8b2;
@@ -19,10 +26,4 @@
 .levw {
   font-weight: bold;
   color: #ff7a4f !important;
-}
-@media screen and (max-width: 650px) {
-  .aboutme {
-    height: 350px;
-    font-size: 16px;
-  }
 }

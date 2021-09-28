@@ -1,3 +1,4 @@
 .container {
-  background-color: #121212;
+  /* background-color: #121212; */
+  background-image: linear-gradient(to right, #121212, #004b63);
 }

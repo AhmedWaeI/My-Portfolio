@@ -9,7 +9,7 @@ function Nav() {
   return (
     <nav className="navbar">
       <div className="brand-title">Levw</div>
-      <span href="#" class="toggle-button" onClick={onClickHandler}>
+      <span class="toggle-button" onClick={onClickHandler}>
         <span className="bar"></span>
         <span className="bar"></span>
         <span className="bar"></span>

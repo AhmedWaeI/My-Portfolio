@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Allura|Josefin+Sans");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to right, #121212, #004b63);
+  /* background-color: #121212; */
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.wrapper {
+  margin-top: 50px;
+}
+
+.wrapper h1 {
+  font-family: "Allura", cursive;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member {
+  background: #e8e8e6;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;
+  position: relative;
+}
+
+.team .team_member h3 {
+  color: #30b8b2;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role {
+  color: #004b63;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.team .team_member .team_img {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #e8e8e6;
+}
+
+.team .team_member .team_img img {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+
+.role {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  background-color: #e8e8e6;
+  font-size: 14px;
+  padding: 1px;
+}
+.role a:link,
+.role a:visited,
+.role a:active {
+  color: #004b63;
+  text-decoration: none;
+}
+.role ul li {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+.roleul li:hover,
+.role ul li:focus {
+  outline: none;
+}
+.role ul li a {
+  position: relative;
+  display: inline-block;
+  color: #004b63;
+  font-size: 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: transform 0.5s ease;
+  -webkit-transition: transform 0.5s ease;
+}
+.role ul li a:before {
+  position: absolute;
+  top: 100%;
+  content: attr(title); /* The selector for Wordpress */
+  color: #333;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.role ul li:hover a,
+.role ul li:focus a {
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
