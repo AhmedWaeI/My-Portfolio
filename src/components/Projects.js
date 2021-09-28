@@ -76,6 +76,7 @@ function Projects() {
             />
           ))}
         </div>
+        <div id="skills"></div>
       </div>
     </React.Fragment>
   );

@@ -24,6 +24,7 @@ function Footer() {
       <div className={classes.footer}>
         Desgined &#38; Built by Abdelrahman Mostafa
       </div>
+      <div id="contact"></div>
     </React.Fragment>
   );
 }

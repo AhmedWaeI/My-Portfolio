@@ -1,4 +1,5 @@
 import "./Nav.css";
+import { HashLink } from "react-router-hash-link";
 import { useState } from "react";
 function Nav() {
   const [navClass, setNavClass] = useState("navbar-links");
@@ -16,10 +17,18 @@ function Nav() {
       </span>
       <div className={navClass}>
         <ul>
-          <li>About</li>
-          <li>Work</li>
-          <li>Skills</li>
-          <li>Contact</li>
+          <HashLink className="remove" smooth to="/#about">
+            <li>About</li>
+          </HashLink>
+          <HashLink className="remove" smooth to="/#work">
+            <li>Work</li>
+          </HashLink>
+          <HashLink className="remove" smooth to="/#skills">
+            <li>Skills</li>
+          </HashLink>
+          <HashLink className="remove" smooth to="/#contact">
+            <li>Contact</li>
+          </HashLink>
         </ul>
       </div>
     </nav>

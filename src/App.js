@@ -7,17 +7,22 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./Footer";
+import { BrowserRouter, Route } from "react-router-dom";
 function App() {
   return (
-    <div className={classes.container}>
-      <Nav />
-      <Header />
-      <About />
-      <Projects />
-      <Skills />
-      <Contact />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Route path="/">
+        <div className={classes.container}>
+          <Nav />
+          <Header />
+          <About />
+          <Projects />
+          <Skills />
+          <Contact />
+          <Footer />
+        </div>
+      </Route>
+    </BrowserRouter>
   );
 }
 

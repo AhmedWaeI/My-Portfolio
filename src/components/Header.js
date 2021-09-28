@@ -14,6 +14,7 @@ function Header() {
         <li>💻 Software Engineer</li>
         <li>😎 Front-End Developer</li>
       </ul>
+      <div id="about"></div>
     </div>
   );
 }

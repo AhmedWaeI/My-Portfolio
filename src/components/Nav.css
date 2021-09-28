@@ -94,3 +94,6 @@
     display: flex;
   }
 }
+.remove {
+  text-decoration: none;
+}

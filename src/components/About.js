@@ -23,6 +23,7 @@ function About() {
           some of the world's problems and trying to understand what is *really*
           going on in the universe.
         </div>
+        <div id="work"></div>
       </div>
     </div>
   );
