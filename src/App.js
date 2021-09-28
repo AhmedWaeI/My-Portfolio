@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import classes from "./App.module.css";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 function App() {
   return (
     <div className={classes.container}>
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <About />
       <Projects />
+      <Skills />
     </div>
   );
 }

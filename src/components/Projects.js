@@ -46,7 +46,7 @@ const PROJECTS = [
     img: auth,
     title: "ReactAuth",
     github: "https://github.com/Levvw/react-auth",
-    info: `implementing Authentication in using React.js and used Firebase to create accounts,store them and login. used third party libraries such as redux for app-wide states, router and surge for deployment`,
+    info: `Implementing Authentication in using React.js and used Firebase to create accounts,store them and login. used third party libraries such as redux for app-wide states, router and surge for deployment`,
   },
   {
     img: db,
@@ -58,7 +58,7 @@ const PROJECTS = [
     img: expenses,
     title: "Expenses Tracker",
     github: "https://github.com/Levvw/expenses-tracker",
-    info: "simple expenses tracker using react js, hosted at surge",
+    info: "Simple expenses tracker using react js, hosted at surge",
   },
 ];
 function Projects() {

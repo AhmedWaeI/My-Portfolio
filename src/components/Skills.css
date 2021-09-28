@@ -1,0 +1,48 @@
+/* Make sure that padding behaves as expected */
+.mastercontainer {
+  box-sizing: border-box;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  /* align-items: center; */
+  justify-content: space-around;
+  height: 400px;
+}
+.mastercontainer p {
+  color: #30b8b2;
+}
+
+/* Container for skill bars */
+.mastercontainer .container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.mastercontainer .skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.mastercontainer .html {
+  width: 90%;
+  background-color: #808080;
+}
+.mastercontainer .css {
+  width: 80%;
+  background-color: #f44336;
+}
+.mastercontainer .js {
+  width: 100%;
+  background-color: #2196f3;
+}
+.mastercontainer .react {
+  width: 95%;
+  background-color: #04aa6d;
+}
+.mastercontainer .cpython {
+  width: 75%;
+  background-color: #aa0404;
+}

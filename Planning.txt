@@ -2,7 +2,7 @@ Portfolio that contains:
 -Name/Roles/Pic     ✅
 -AboutMe/Adress/Summary/Education ✅
 -Work/Projects  ✅
--Skills/Tools/Tech
+-Skills/Tools/Tech ✅
 -Contact/Links
 
 project.css , app.module.css both only control the background
@@ -12,6 +12,8 @@ Each Project has:
     -Info
     -Github Link
     -pic
+
+After finished run build then move files to levw, maybe update the readme/description
 
 
 
