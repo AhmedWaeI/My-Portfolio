@@ -1,7 +1,18 @@
 .footer {
-  margin-top: 150px;
+  margin-top: 50px;
   margin-bottom: 20px;
   text-align: center;
   font-size: small;
   color: #e8e8e6a6;
+}
+.links {
+  margin-top: 100px !important;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.links a:hover {
+  opacity: 0.6;
 }
