@@ -44,14 +44,22 @@
   border: #30b8b2 solid 7px;
   color: #30b8b2;
   border-radius: 50%;
-  animation-name: borderColor;
+  /* animation-name: borderColor;
   animation-iteration-count: infinite;
   animation-duration: 700ms;
   animation-timing-function: ease;
+  animation-direction: alternate; */
+  animation-name: borderColor;
+  animation-iteration-count: infinite;
+  animation-duration: 1000ms;
+  animation-timing-function: ease;
   animation-direction: alternate;
 }
+.img:hover {
+  animation-play-state: paused;
+}
 
-@keyframes borderColor {
+/* @keyframes borderColor {
   0% {
     border-color: #121212;
   }
@@ -64,7 +72,18 @@
   100% {
     border-color: #e8e8e6;
   }
+} */
+
+@keyframes borderColor {
+  0% {
+    border-color: #30b8b2;
+  }
+
+  100% {
+    border-color: #004b63;
+  }
 }
+
 @media screen and (max-width: 650px) {
   .img {
     width: 85%;

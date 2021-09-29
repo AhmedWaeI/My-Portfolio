@@ -29,7 +29,8 @@
 
 .mastercontainer .html {
   width: 90%;
-  background-color: #808080;
+
+  background-color: #aa0404;
 }
 .mastercontainer .css {
   width: 80%;
@@ -37,13 +38,14 @@
 }
 .mastercontainer .js {
   width: 100%;
-  background-color: #2196f3;
+
+  background-color: #04aa6d;
 }
 .mastercontainer .react {
   width: 95%;
-  background-color: #04aa6d;
+  background-color: #2196f3;
 }
 .mastercontainer .cpython {
   width: 75%;
-  background-color: #aa0404;
+  background-color: #c2a500;
 }

@@ -15,12 +15,16 @@ Each Project has:
     -Github Link
     -pic
 
-About anchor link id at rlast div in Header
+About anchor link id at last div in Header
 Work anchor link id at last div in About
 Skills anchor link id at last div in Projects
 
 
 After finished run build then move files to levw, maybe update the readme/description
+
+Feedback:
+- Visual Representation in project paragraphs and github readme
+- Remove Bar % representation of skills
 
 
 
