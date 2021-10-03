@@ -8,6 +8,7 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./Footer";
 import { BrowserRouter, Route } from "react-router-dom";
+
 function App() {
   return (
     <BrowserRouter>
@@ -19,6 +20,7 @@ function App() {
           <Projects />
           <Skills />
           <Contact />
+
           <Footer />
         </div>
       </Route>
