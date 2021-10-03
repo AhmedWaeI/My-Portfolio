@@ -1,0 +1,45 @@
+.skillsContainer {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  margin-top: -30px;
+}
+@media (max-width: 650px) {
+  .skillsContainer {
+    width: 90%;
+    margin-top: 0px;
+  }
+}
+.innerSkillCon {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+@media (max-width: 650px) {
+  .innerSkillCon {
+    margin: 20px;
+  }
+}
+.skillsContainer div img {
+  width: 70px;
+  height: 70px;
+}
+.skillsContainer div label {
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+@media (max-width: 650px) {
+  .skillsContainer div img {
+    width: 50px;
+    height: 50px;
+  }
+  .skillsContainer div label {
+    font-size: 16px;
+  }
+}

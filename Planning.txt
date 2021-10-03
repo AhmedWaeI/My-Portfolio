@@ -17,8 +17,7 @@ Skills anchor link id at last div in Projects
 
 After finished run build then move files to levw, maybe update the readme/description
 
-Future Work:
-- Remove Bar % representation of skills add Normal my skills section instead
+
 
 
 
