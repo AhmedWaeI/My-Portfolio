@@ -16,7 +16,7 @@ const PROJECTS = [
     img: cehub,
     title: "CE-HUB",
     github: "https://github.com/Levvw/CE-HUB",
-    info: `Website for BUE Computer Engineering 19'24 students to provide a clean day by day schedule with zoom links and other features. For a better online-learning experience. Html,Css & JS are used in the front-end, NodeJS & MongoDB for the back-end.`,
+    info: `Website for BUE Computer Engineering 19'24 students to provide a clean day by day schedule with zoom links and other features. For a better online-learning experience. Html,Css & JS are used in the Front-end, NodeJS & MongoDB for the Back-end.`,
     images: [
       {
         url: "https://i.ibb.co/44C4KzD/cehub1.png",
@@ -83,14 +83,14 @@ const PROJECTS = [
     img: food,
     title: "Food-order",
     github: "https://github.com/Levvw/food-order",
-    info: `Levw Meals! food ordering app using react js and Firebase to store the meals!`,
+    info: `Levw Meals! food ordering app using React and Firebase to store the meals!`,
     tech: ["React", "Firebase"],
   },
   {
     img: auth,
     title: "ReactAuth",
     github: "https://github.com/Levvw/react-auth",
-    info: `Implementing Authentication in using React.js and used Firebase to create accounts,store them and login. used third party libraries such as redux for app-wide states, router and surge for deployment`,
+    info: `Implementing Authentication in using React and used Firebase to create accounts,store them and login. used third party libraries such as Redux for app-wide states, Router and surge for deployment`,
     images: [
       {
         url: "https://i.ibb.co/XSDwKN4/auth1.png",
@@ -103,14 +103,14 @@ const PROJECTS = [
     img: db,
     title: "Skills Storage",
     github: "https://github.com/Levvw/Python-SQLite-Skills-Project",
-    info: "Created a SQLlite database using python for storing the skills of a person and their progress",
+    info: "Created a SQLlite database using Python for storing the skills of a person and their progress",
     tech: ["Python", "SQLite"],
   },
   {
     img: expenses,
     title: "Expenses Tracker",
     github: "https://github.com/Levvw/expenses-tracker",
-    info: "Simple expenses tracker using react js, hosted at surge",
+    info: "Simple expenses tracker using React, hosted at surge",
     images: [
       {
         url: "https://i.ibb.co/7tM6Hj9/expenses1.png",

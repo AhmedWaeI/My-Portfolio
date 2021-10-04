@@ -8,6 +8,10 @@ Each Project has:
     -tech used
     -(slider pics)
     -(url)
+    
+Each skill has:
+-skill Name
+-img logo
  
 
 About anchor link id at last div in Header

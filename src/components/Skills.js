@@ -45,7 +45,7 @@ function Skills() {
           </div>
         ))}
       </div>
-      <div class="mastercontainer">
+      {/* <div class="mastercontainer">
         <p>JavaScript (ES6+)</p>
         <div class="container">
           <div class="skills js">100%</div>
@@ -68,7 +68,7 @@ function Skills() {
         <div class="container">
           <div class="skills cpython">75%</div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
