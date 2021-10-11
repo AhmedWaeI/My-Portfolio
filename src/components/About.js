@@ -17,7 +17,7 @@ function About() {
           <span> 4.0/4.0 </span>and expected to graduate in 2024.
         </div>
         <div>
-          My passion is using <span>science and technlogy</span> to build
+          My passion is using <span>science and technology</span> to build
           products that people can benefit from. Along with
           <span> solving </span>
           some of the world's problems and trying to understand what is *really*
