@@ -1,8 +1,11 @@
 import React from "react";
 import classes from "./Footer.module.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 function Footer() {
+  Aos.init();
   return (
-    <React.Fragment>
+    <div data-aos="zoom-in">
       <div className={classes.links}>
         <a target="_blank" href="https://github.com/Levvw" rel="noreferrer">
           {/* <img
@@ -33,7 +36,7 @@ function Footer() {
         Desgined &#38; Built by Abdelrahman Mostafa
       </div>
       <div id="contact"></div>
-    </React.Fragment>
+    </div>
   );
 }
 export default Footer;

@@ -1,16 +1,19 @@
 import "./Project.css";
 import React, { useState } from "react";
 import SimpleImageSlider from "react-simple-image-slider";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Project(props) {
   const [showSlider, setShowSlider] = useState(false);
   function onClickHandler() {
     setShowSlider((state) => !state);
   }
+  Aos.init();
   return (
     <React.Fragment>
       {showSlider && props.images ? (
-        <div className="team_member ">
+        <div className="team_member " data-aos="flip-down">
           <button onClick={onClickHandler} className="sliderBtn">
             {showSlider ? (
               <img
@@ -39,7 +42,7 @@ function Project(props) {
           />
         </div>
       ) : (
-        <div className="team_member ">
+        <div className="team_member " data-aos="flip-down">
           {props.images && (
             <button onClick={onClickHandler} className="sliderBtn">
               {showSlider ? (

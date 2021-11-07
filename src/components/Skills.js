@@ -17,7 +17,11 @@ import vs from "../assets/Skills/vs.svg";
 import vscode from "../assets/Skills/vscode.svg";
 import github from "../assets/Skills/github.png";
 import git from "../assets/Skills/git.png";
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 function Skills() {
+  Aos.init();
   const Skills = [
     { skill: "Html", img: html },
     { skill: "Css", img: css },
@@ -35,7 +39,7 @@ function Skills() {
     { skill: "Firebase", img: firebase },
   ];
   return (
-    <div className="parentSkills">
+    <div className="parentSkills" data-aos="zoom-in">
       <HeadingTitle title="My Skills" />
       <div className="skillsContainer">
         {Skills.map((Skill) => (

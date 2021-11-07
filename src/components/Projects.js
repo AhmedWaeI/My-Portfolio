@@ -11,6 +11,8 @@ import mapty from "../assets/mapty.png";
 import db from "../assets/db.png";
 import cehub from "../assets/cehub.png";
 
+import Aos from "aos";
+import "aos/dist/aos.css";
 const PROJECTS = [
   {
     img: cehub,
@@ -125,9 +127,12 @@ const PROJECTS = [
 ];
 
 function Projects() {
+  Aos.init();
   return (
     <React.Fragment>
-      <HeadingTitle title="Projects" />
+      <div data-aos="zoom-in">
+        <HeadingTitle title="Projects" />
+      </div>
       <div className="wrapper">
         <div className="team">
           {PROJECTS.map((project, i) => (

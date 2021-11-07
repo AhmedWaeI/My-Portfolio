@@ -1,9 +1,13 @@
 import React from "react";
 import HeadingTitle from "./HeadingTitle";
 import classes from "./Contact.module.css";
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 function Contact() {
+  Aos.init();
   return (
-    <React.Fragment>
+    <div data-aos="zoom-in">
       <HeadingTitle title="Contact" />
       <div className={classes.emailcontainer}>
         <p>
@@ -24,7 +28,7 @@ function Contact() {
           Email
         </a>
       </div>
-    </React.Fragment>
+    </div>
   );
 }
 export default Contact;
