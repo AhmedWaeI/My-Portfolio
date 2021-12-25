@@ -17,6 +17,11 @@ import vs from "../assets/Skills/vs.svg";
 import vscode from "../assets/Skills/vscode.svg";
 import github from "../assets/Skills/github.png";
 import git from "../assets/Skills/git.png";
+import node from "../assets/Skills/node.png";
+import express from "../assets/Skills/express.png";
+import mongo from "../assets/Skills/mongo.png";
+import mongoose from "../assets/Skills/mongoose.png";
+import postman from "../assets/Skills/postman.png";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -29,6 +34,11 @@ function Skills() {
     { skill: "React", img: react },
     { skill: "Redux", img: redux },
     { skill: "Router", img: router },
+    { skill: "Node", img: node },
+    { skill: "Express", img: express },
+    { skill: "MongoDB", img: mongo },
+    { skill: "Mongoose", img: mongoose },
+    { skill: "Postman", img: postman },
     { skill: "Npm", img: npm },
     { skill: "Git", img: git },
     { skill: "Github", img: github },

@@ -8,7 +8,7 @@ import food from "../assets/food.png";
 import expenses from "../assets/expenses.png";
 import week from "../assets/week.png";
 import mapty from "../assets/mapty.png";
-import db from "../assets/db.png";
+import weather from "../assets/weather.png";
 import cehub from "../assets/cehub.png";
 
 import Aos from "aos";
@@ -66,6 +66,32 @@ const PROJECTS = [
     tech: ["Leaflet", "Javascript"],
   },
   {
+    img: weather,
+    title: "LevWeather",
+    github: "https://github.com/Levvw/LevWeather",
+    info: "Weather app tells weather by city name using Node, Express, Handlebars ,Geolocation & Open Weather APIs.",
+    tech: ["Node", "Express", "MongoDB"],
+    images: [
+      {
+        url: "https://i.ibb.co/M7CR9tm/weather.png",
+      },
+    ],
+    url: "https://levweather.herokuapp.com/",
+  },
+  {
+    img: auth,
+    title: "ReactAuth",
+    github: "https://github.com/Levvw/react-auth",
+    info: `Implementing Authentication in using React and used Firebase to create accounts,store them and login. used third party libraries such as Redux for app-wide states, Router and surge for deployment`,
+    images: [
+      {
+        url: "https://i.ibb.co/XSDwKN4/auth1.png",
+      },
+    ],
+    url: "https://levw-auth.surge.sh/",
+    tech: ["React", "Redux", "Router", "Firebase"],
+  },
+  {
     img: week,
     title: "WeekDay",
     github: `https://github.com/Levvw/weekday`,
@@ -88,26 +114,7 @@ const PROJECTS = [
     info: `Levw Meals! food ordering app using React and Firebase to store the meals!`,
     tech: ["React", "Firebase"],
   },
-  {
-    img: auth,
-    title: "ReactAuth",
-    github: "https://github.com/Levvw/react-auth",
-    info: `Implementing Authentication in using React and used Firebase to create accounts,store them and login. used third party libraries such as Redux for app-wide states, Router and surge for deployment`,
-    images: [
-      {
-        url: "https://i.ibb.co/XSDwKN4/auth1.png",
-      },
-    ],
-    url: "https://levw-auth.surge.sh/",
-    tech: ["React", "Redux", "Router", "Firebase"],
-  },
-  {
-    img: db,
-    title: "Skills Storage",
-    github: "https://github.com/Levvw/Python-SQLite-Skills-Project",
-    info: "Created a SQLlite database using Python for storing the skills of a person and their progress",
-    tech: ["Python", "SQLite"],
-  },
+
   {
     img: expenses,
     title: "Expenses Tracker",
