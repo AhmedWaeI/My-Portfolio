@@ -1,11 +1,8 @@
 import React from "react";
 import classes from "./Footer.module.css";
-import Aos from "aos";
-import "aos/dist/aos.css";
 function Footer() {
-  Aos.init();
   return (
-    <div data-aos="zoom-in">
+    <div>
       <div className={classes.links}>
         <a target="_blank" href="https://github.com/Levvw" rel="noreferrer">
           {/* <img
