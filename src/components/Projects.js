@@ -4,7 +4,7 @@ import React from "react";
 import Project from "./Project";
 import flappy from "../assets/articuno.png";
 import auth from "../assets/auth.png";
-import food from "../assets/food.png";
+import omima from "../assets/omima.png";
 import expenses from "../assets/expenses.png";
 import week from "../assets/week.png";
 import mapty from "../assets/mapty.png";
@@ -14,6 +14,25 @@ import cehub from "../assets/cehub.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 const PROJECTS = [
+  {
+    img: omima,
+    title: "Omima.Art",
+    github: "https:/omima.art",
+    info: "E-commerce shop for selling paintings for a famous egyptian artist. With Authentication, Payment, Collection Systems and Admin Panel. Used React for frontend, Node and MongoDB for the backend. Code is not public contact me to view it.",
+    images: [
+      {
+        url: "https://i.ibb.co/DrzwC5b/Capture.png",
+      },
+      {
+        url: "https://i.ibb.co/6YR3F3x/Capture.png",
+      },
+      {
+        url: "https://i.ibb.co/Tv8FqJz/Capture.png",
+      },
+    ],
+    url: "https:/omima.art",
+    tech: ["React", "Node", "MongoDB"],
+  },
   {
     img: cehub,
     title: "CE-HUB",
@@ -106,13 +125,6 @@ const PROJECTS = [
     ],
     url: "https://levvw.github.io/weekday/",
     tech: ["Javascript"],
-  },
-  {
-    img: food,
-    title: "Food-order",
-    github: "https://github.com/Levvw/food-order",
-    info: `Levw Meals! food ordering app using React and Firebase to store the meals!`,
-    tech: ["React", "Firebase"],
   },
 
   {
