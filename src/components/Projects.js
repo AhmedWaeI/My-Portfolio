@@ -36,7 +36,7 @@ const PROJECTS = [
   {
     img: cehub,
     title: "CE-HUB",
-    github: "https://github.com/Levvw/CE-HUB",
+    github: "https://github.com/LevwTech/CE-HUB",
     info: `Website for BUE Computer Engineering 19'24 students to provide a clean day by day schedule with zoom links and other features. For a better online-learning experience. Html,Css & JS are used in the Front-end, NodeJS & MongoDB for the Back-end.`,
     images: [
       {
@@ -57,7 +57,7 @@ const PROJECTS = [
   {
     img: flappy,
     title: "Flappynivia",
-    github: "https://github.com/Levvw/Flappynivia",
+    github: "https://github.com/LevwTech/Flappynivia",
     info: `Fun arcade game implemented using Unity Engine and C# programming language inspired by Articuno & Anivia, received over 200 downloads.`,
     images: [
       {
@@ -70,7 +70,7 @@ const PROJECTS = [
   {
     img: mapty,
     title: "Mapty",
-    github: "https://github.com/Levvw/Mapty",
+    github: "https://github.com/LevwTech/Mapty",
     info: "Web App that maps your workouts based on your location using Leaflet library, vanilla JS and Geolocation API. implemented with OOP principles, hosted at github pages.",
     images: [
       {
@@ -81,13 +81,13 @@ const PROJECTS = [
         url: "  https://i.ibb.co/pKkVX1c/mapty2.png",
       },
     ],
-    url: "https://levvw.github.io/Mapty/",
+    url: "https://LevwTech.github.io/Mapty/",
     tech: ["Leaflet", "Javascript"],
   },
   {
     img: weather,
     title: "LevWeather",
-    github: "https://github.com/Levvw/LevWeather",
+    github: "https://github.com/LevwTech/LevWeather",
     info: "Weather app tells weather by city name using Node, Express, Handlebars ,Geolocation & Open Weather APIs.",
     tech: ["Node", "Express", "MongoDB"],
     images: [
@@ -100,7 +100,7 @@ const PROJECTS = [
   {
     img: auth,
     title: "ReactAuth",
-    github: "https://github.com/Levvw/react-auth",
+    github: "https://github.com/LevwTech/react-auth",
     info: `Implementing Authentication in using React and used Firebase to create accounts,store them and login. used third party libraries such as Redux for app-wide states, Router and surge for deployment`,
     images: [
       {
@@ -113,7 +113,7 @@ const PROJECTS = [
   {
     img: week,
     title: "WeekDay",
-    github: `https://github.com/Levvw/weekday`,
+    github: `https://github.com/LevwTech/weekday`,
     info: `Website to calculate the week day from the date information using vanilla JS, hosted at github pages.`,
     images: [
       {
@@ -123,14 +123,14 @@ const PROJECTS = [
         url: "https://i.ibb.co/qxFggbW/week2.png",
       },
     ],
-    url: "https://levvw.github.io/weekday/",
+    url: "https://LevwTech.github.io/weekday/",
     tech: ["Javascript"],
   },
 
   {
     img: expenses,
     title: "Expenses Tracker",
-    github: "https://github.com/Levvw/expenses-tracker",
+    github: "https://github.com/LevwTech/expenses-tracker",
     info: "Simple expenses tracker using React, hosted at surge",
     images: [
       {
