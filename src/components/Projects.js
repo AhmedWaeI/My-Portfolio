@@ -30,7 +30,7 @@ const PROJECTS = [
         url: "https://i.ibb.co/Tv8FqJz/Capture.png",
       },
     ],
-    url: "https:/omima.art",
+    url: "https://omima.art",
     tech: ["React", "Node", "MongoDB"],
   },
   {
