@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div>
       <div className={classes.links}>
-        <a target="_blank" href="https://github.com/Levvw" rel="noreferrer">
+        <a target="_blank" href="https://github.com/LevwTech" rel="noreferrer">
           {/* <img
             alt="github"
             src="https://img.icons8.com/ios-filled/50/000000/github.png"
