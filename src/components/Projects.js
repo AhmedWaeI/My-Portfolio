@@ -17,7 +17,7 @@ const PROJECTS = [
   {
     img: omima,
     title: "Omima.Art",
-    github: "https:/omima.art",
+    github: "https://omima.art",
     info: "E-commerce shop for selling paintings for a famous egyptian artist. With Authentication, Payment, Collection Systems and Admin Panel. Used React for frontend, Node and MongoDB for the backend. Code is not public contact me to view it.",
     images: [
       {
