@@ -123,8 +123,8 @@ const PROJECTS = [
         url: "https://i.ibb.co/qxFggbW/week2.png",
       },
     ],
-    url: "https://levwtech.github.io/weekday/",
-    tech: ["Javascript"],
+    url: "https://levwtech.github.io/weekday/ ",
+    tech: ["Javascript "],
   },
 
   {
