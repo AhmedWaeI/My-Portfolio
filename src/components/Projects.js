@@ -124,7 +124,7 @@ const PROJECTS = [
       },
     ],
     url: "https://levwtech.github.io/weekday/ ",
-    tech: ["Javascript "],
+    tech: ["Javascript"],
   },
 
   {
