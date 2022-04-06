@@ -123,7 +123,7 @@ const PROJECTS = [
         url: "https://i.ibb.co/qxFggbW/week2.png",
       },
     ],
-    url: "https://levweather.herokuapp.com/",
+    url: "https://levwtech.github.io/weekday/",
     tech: ["Javascript"],
   },
 
