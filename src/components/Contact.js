@@ -21,10 +21,7 @@ function Contact() {
             Linkedin
           </a>
         </p>
-        <a
-          className={classes.email}
-          href="mailto:abdelraahmanmostafa@gmail.com"
-        >
+        <a className={classes.email} href="mailto:levwtech@gmail.com">
           Email
         </a>
       </div>
