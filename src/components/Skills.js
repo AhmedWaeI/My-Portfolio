@@ -22,6 +22,8 @@ import express from "../assets/Skills/express.png";
 import mongo from "../assets/Skills/mongo.png";
 import mongoose from "../assets/Skills/mongoose.png";
 import postman from "../assets/Skills/postman.png";
+import mysql from "../assets/Skills/mysql.png";
+import sql from "../assets/Skills/sql.png";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -38,6 +40,8 @@ function Skills() {
     { skill: "Express", img: express },
     { skill: "MongoDB", img: mongo },
     { skill: "Mongoose", img: mongoose },
+    { skill: "SQL", img: sql },
+    { skill: "MySQL", img: mysql },
     { skill: "Postman", img: postman },
     { skill: "Npm", img: npm },
     { skill: "Git", img: git },
