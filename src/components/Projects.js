@@ -5,7 +5,6 @@ import Project from "./Project";
 import flappy from "../assets/articuno.png";
 import auth from "../assets/auth.png";
 import omima from "../assets/omima.png";
-import expenses from "../assets/expenses.png";
 import week from "../assets/week.png";
 import mapty from "../assets/mapty.png";
 import weather from "../assets/weather.png";
