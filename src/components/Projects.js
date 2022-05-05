@@ -10,6 +10,7 @@ import week from "../assets/week.png";
 import mapty from "../assets/mapty.png";
 import weather from "../assets/weather.png";
 import cehub from "../assets/cehub.png";
+import fifa from "../assets/fifa.png";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -68,6 +69,22 @@ const PROJECTS = [
     tech: ["Unity", "C#"],
   },
   {
+    img: fifa,
+    title: "Fifa db",
+    github: "https://fifalinks.netlify.app/",
+    info: "Fifa football management system to manage players and clubs frontend created using HTML,CSS,Js,React and backend using Mysql and Node ",
+    images: [
+      {
+        url: "https://i.ibb.co/nB6X0HD/132-1.png",
+      },
+      {
+        url: "https://i.ibb.co/nnL9xtP/456-5.png",
+      },
+    ],
+    url: "https://fifalinks.netlify.app/",
+    tech: ["MySQL", "React", "Node"],
+  },
+  {
     img: mapty,
     title: "Mapty",
     github: "https://github.com/LevwTech/Mapty",
@@ -84,6 +101,7 @@ const PROJECTS = [
     url: "https://LevwTech.github.io/Mapty/",
     tech: ["Leaflet", "Javascript"],
   },
+
   {
     img: weather,
     title: "LevWeather",
@@ -125,23 +143,6 @@ const PROJECTS = [
     ],
     url: "https://levwtech.github.io/weekday/ ",
     tech: ["Javascript"],
-  },
-
-  {
-    img: expenses,
-    title: "Expenses Tracker",
-    github: "https://github.com/LevwTech/expenses-tracker",
-    info: "Simple expenses tracker using React, hosted at surge",
-    images: [
-      {
-        url: "https://i.ibb.co/7tM6Hj9/expenses1.png",
-      },
-      {
-        url: "https://i.ibb.co/fS0LBfS/expenses2.png",
-      },
-    ],
-    url: "https://expenses-levw.surge.sh/",
-    tech: ["React"],
   },
 ];
 
