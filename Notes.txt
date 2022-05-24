@@ -19,9 +19,6 @@ Work anchor link id at last div in About
 Skills anchor link id at last div in Projects
 
 
-After finished run build then move files to levw after removing everything there except CNAME
-
-
 
 
 
