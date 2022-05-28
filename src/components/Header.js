@@ -25,7 +25,6 @@ function Header() {
       </div>
       <ul data-aos="fade-right" className={classes.roles}>
         <li>💻 Software Engineer</li>
-        <li>😎 Full Stack Developer</li>
       </ul>
       <div id="about"></div>
     </div>
