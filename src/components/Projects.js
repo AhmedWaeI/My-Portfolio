@@ -18,16 +18,13 @@ const PROJECTS = [
     img: omima,
     title: "Omima.Art",
     github: "https://omima.art",
-    info: "E-commerce shop for selling paintings for a famous egyptian artist. With Authentication, Payment, Collection Systems and Admin Panel. Used React for frontend, Node and MongoDB for the backend. Code is not public contact me to view it.",
+    info: "E-commerce shop for selling paintings for a famous egyptian artist. With Authentication, Payment, Collection Systems and Admin Panel. Used React for frontend, Node and MongoDB for the backend.",
     images: [
       {
-        url: "https://i.ibb.co/DrzwC5b/Capture.png",
+        url: "https://i.ibb.co/sWWLHRG/categories.png",
       },
       {
-        url: "https://i.ibb.co/6YR3F3x/Capture.png",
-      },
-      {
-        url: "https://i.ibb.co/Tv8FqJz/Capture.png",
+        url: "https://i.ibb.co/yyZMRhP/Buy.png",
       },
     ],
     url: "https://omima.art",
@@ -54,6 +51,23 @@ const PROJECTS = [
     url: "https://ce-hub.herokuapp.com/schedule",
     tech: ["Node", "Express", "MongoDB"],
   },
+
+  {
+    img: fifa,
+    title: "Fifa db",
+    github: "https://fifalinks.netlify.app/",
+    info: "Fifa football management system to manage players and clubs and display FIFA Cards. Frontend created using HTML,CSS,Js,React and backend using Mysql and Node ",
+    images: [
+      {
+        url: "https://i.ibb.co/nB6X0HD/132-1.png",
+      },
+      {
+        url: "https://i.ibb.co/nnL9xtP/456-5.png",
+      },
+    ],
+    url: "https://fifalinks.netlify.app/",
+    tech: ["MySQL", "React", "Node"],
+  },
   {
     img: flappy,
     title: "Flappynivia",
@@ -66,22 +80,6 @@ const PROJECTS = [
     ],
     url: "https://drive.google.com/file/d/1LVZsqCdFU8nb02j7OzdRb5oDMsHIHDvz/view",
     tech: ["Unity", "C#"],
-  },
-  {
-    img: fifa,
-    title: "Fifa db",
-    github: "https://fifalinks.netlify.app/",
-    info: "Fifa football management system to manage players and clubs frontend created using HTML,CSS,Js,React and backend using Mysql and Node ",
-    images: [
-      {
-        url: "https://i.ibb.co/nB6X0HD/132-1.png",
-      },
-      {
-        url: "https://i.ibb.co/nnL9xtP/456-5.png",
-      },
-    ],
-    url: "https://fifalinks.netlify.app/",
-    tech: ["MySQL", "React", "Node"],
   },
   {
     img: mapty,
