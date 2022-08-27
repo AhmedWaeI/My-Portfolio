@@ -4,6 +4,7 @@ import HeadingTitle from "./HeadingTitle";
 import React from "react";
 
 import js from "../assets/Skills/js.png";
+import ts from "../assets/Skills/ts.png";
 import cpp from "../assets/Skills/cpp.svg";
 import react from "../assets/Skills/react.svg";
 import css from "../assets/Skills/css.png";
@@ -11,6 +12,7 @@ import html from "../assets/Skills/html.png";
 import npm from "../assets/Skills/npm.png";
 import router from "../assets/Skills/router.svg";
 import redux from "../assets/Skills/redux.svg";
+import rn from "../assets/Skills/rn.png";
 import python from "../assets/Skills/python.png";
 import firebase from "../assets/Skills/firebase.svg";
 import vs from "../assets/Skills/vs.svg";
@@ -33,9 +35,11 @@ function Skills() {
     { skill: "Html", img: html },
     { skill: "Css", img: css },
     { skill: "Javascript", img: js },
+    { skill: "Typescript", img: ts },
     { skill: "React", img: react },
     { skill: "Redux", img: redux },
     { skill: "Router", img: router },
+    { skill: "React Native", img: rn },
     { skill: "Node", img: node },
     { skill: "Express", img: express },
     { skill: "MongoDB", img: mongo },
