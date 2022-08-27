@@ -8,6 +8,7 @@ import ts from "../assets/Skills/ts.png";
 import cpp from "../assets/Skills/cpp.svg";
 import react from "../assets/Skills/react.svg";
 import css from "../assets/Skills/css.png";
+import scss from "../assets/Skills/sass.png";
 import html from "../assets/Skills/html.png";
 import npm from "../assets/Skills/npm.png";
 import router from "../assets/Skills/router.svg";
@@ -36,6 +37,7 @@ function Skills() {
   const Skills = [
     { skill: "Html", img: html },
     { skill: "Css", img: css },
+    { skill: "Scss", img: scss },
     { skill: "Javascript", img: js },
     { skill: "Typescript", img: ts },
     { skill: "React", img: react },
