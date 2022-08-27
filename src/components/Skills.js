@@ -13,6 +13,8 @@ import npm from "../assets/Skills/npm.png";
 import router from "../assets/Skills/router.svg";
 import redux from "../assets/Skills/redux.svg";
 import rn from "../assets/Skills/rn.png";
+import docker from "../assets/Skills/docker.png";
+import kubernetes from "../assets/Skills/kubernetes.png";
 import python from "../assets/Skills/python.png";
 import firebase from "../assets/Skills/firebase.svg";
 import vs from "../assets/Skills/vs.svg";
@@ -46,6 +48,8 @@ function Skills() {
     { skill: "Mongoose", img: mongoose },
     { skill: "SQL", img: sql },
     { skill: "MySQL", img: mysql },
+    { skill: "Docker", img: docker },
+    { skill: "Kubernetes", img: kubernetes },
     { skill: "Postman", img: postman },
     { skill: "Npm", img: npm },
     { skill: "Git", img: git },
