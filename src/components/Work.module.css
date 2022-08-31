@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+.work {
+  color: #e8e8e6;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 650px) {
+  .work {
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-flow: column nowrap;
+  }
+}
+.companies {
+  width: 30%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media screen and (max-width: 650px) {
+  .companies {
+    width: 100%;
+    flex-flow: row nowrap;
+    margin-bottom: 20px;
+  }
+}
+.companies div {
+  margin-top: 15px;
+}
+.companies div:hover {
+  color: #30b8b2;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+  .companies div {
+    margin-top: 0px;
+    margin-right: 10px;
+  }
+}
+.company {
+  width: 70%;
+}
+@media screen and (max-width: 650px) {
+  .company {
+    width: 100%;
+    margin-left: 20px;
+  }
+}
+.company .companyRole {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+@media screen and (max-width: 650px) {
+  .company .companyRole {
+    font-size: 18px;
+  }
+}
+.company .companyRole span {
+  color: #30b8b2;
+}
+.company .companyRole span:hover {
+  color: rgb(157, 230, 226);
+}
+
+.company .companyDate {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+@media screen and (max-width: 650px) {
+  .company .companyDate {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+}
+.company ul {
+  list-style-image: url("../assets/right-arrow.png");
+}
+
+.company ul li {
+  text-align: left;
+  margin-top: 15px;
+}
+.hide {
+  display: none;
+}

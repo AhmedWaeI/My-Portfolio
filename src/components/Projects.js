@@ -4,6 +4,7 @@ import React from "react";
 import Project from "./Project";
 import flappy from "../assets/articuno.png";
 import auth from "../assets/auth.png";
+import vodafone from "../assets/vodafone.svg";
 import omima from "../assets/omima.png";
 import week from "../assets/week.png";
 import mapty from "../assets/mapty.png";
@@ -11,9 +12,29 @@ import weather from "../assets/weather.png";
 import cehub from "../assets/cehub.png";
 import fifa from "../assets/fifa.png";
 
-import Aos from "aos";
-import "aos/dist/aos.css";
 const PROJECTS = [
+  {
+    img: vodafone,
+    title: "KPI Visualisation App",
+    github: "https://github.com/LevwTech",
+    info: "Internal cross platform mobile application to display KPI metrics and to monitor the performance of the network throughout the country using charts, Google-powered map network failure points. To be used by the engineers and management of Vodafone Egypt.",
+    images: [
+      {
+        url: "https://i.ibb.co/jwM8DYd/Whats-App-Image-2022-08-30-at-10-40-37-PM.jpg",
+      },
+      {
+        url: "https://i.ibb.co/S5TJgQ0/Whats-App-Image-2022-08-30-at-10-40-38-PM.jpg",
+      },
+      {
+        url: "https://i.ibb.co/6tX17cR/Whats-App-Image-2022-08-30-at-10-40-38-PM-1.jpg",
+      },
+      {
+        url: "https://i.ibb.co/Y2v8Dr8/Whats-App-Image-2022-08-30-at-10-40-38-PM-2.jpg",
+      },
+    ],
+    url: "https://github.com/LevwTech",
+    tech: ["React Native", "Node", "SQL"],
+  },
   {
     img: omima,
     title: "Omima.Art",
@@ -144,10 +165,9 @@ const PROJECTS = [
 ];
 
 function Projects() {
-  Aos.init();
   return (
     <React.Fragment>
-      <div data-aos="zoom-in">
+      <div>
         <HeadingTitle title="Projects" />
       </div>
       <div className="wrapper">
