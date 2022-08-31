@@ -23,8 +23,8 @@ function About() {
           My passion is using <span>science and technology</span> to build
           products that people can benefit from. Along with
           <span> solving </span>
-          some of the world's problems and trying to understand what is *really*
-          going on in the universe.
+          some of the world's <span>problems</span> and trying to understand
+          what is *really* going on in the universe.
         </div>
         <div id="work"></div>
       </div>
