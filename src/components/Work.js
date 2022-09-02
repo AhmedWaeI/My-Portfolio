@@ -103,6 +103,18 @@ function About() {
               visualization using chart.js and built a comment system that is
               synced with twitter to increase blog engagement.
             </li>
+            <li>
+              Received a{" "}
+              <a
+                rel="noreferrer"
+                target="_blank"
+                style={{ color: "#30b8b2" }}
+                href="https://drive.google.com/file/d/1Ez9lXfP-EuewYklkM14MLkqb2adRQVB9/view?usp=sharing"
+              >
+                letter of recommendation
+              </a>
+              .
+            </li>
           </ul>
         </div>
 
