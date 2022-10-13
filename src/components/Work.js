@@ -81,7 +81,8 @@ function About() {
               The app included features such as charts, Google-powered map with
               all the points where network failures happened over a certain
               period. To be used by the engineers and management of Vodafone
-              Egypt. Built using React Native, Node &#38; SQL.
+              Egypt. Built using React Native, Node &#38; SQL. Was recognised as
+              a Top Performer.
             </li>
           </ul>
         </div>
