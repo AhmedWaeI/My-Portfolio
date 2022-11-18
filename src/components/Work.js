@@ -72,17 +72,18 @@ function About() {
           </div>
           <ul>
             <li>
-              Built from the ground up and delivered an internal cross platform
-              mobile application to display KPI metrics and to quickly and
-              effectively monitor the performance of the network throughout the
-              country.
+              Built and delivered an internal cross platform mobile application
+              to display KPI metrics and to quickly and effectively monitor the
+              performance of the network throughout the country.
             </li>
             <li>
-              The app included features such as charts, Google-powered map with
-              all the points where network failures happened over a certain
-              period. To be used by the engineers and management of Vodafone
-              Egypt. Built using React Native, Node &#38; SQL. Was recognised as
-              a Top Performer.
+              Developed features such as charts, graphs and Google-powered map
+              with all the points where network failures happened over a certain
+              period using React Native, Node and SQL.
+            </li>
+            <li>
+              The app was used by the engineers and managers of Vodafone Egypt
+              and i was recognised as a Top Performer.
             </li>
           </ul>
         </div>
@@ -95,14 +96,20 @@ function About() {
           <ul>
             <li>
               Worked on building the infrastructure of the Web of Things
-              community, developed and deployed backend and frontend solutions
-              and built internal tooling using Node, Hugo, Lit, Docker,
-              Kubernetes and different database systems.
+              community, developed backend and frontend solutions and built
+              internal tooling using Node and different database systems.
+            </li>
+            <li>
+              Wrote configuration scripts and deployed services using Docker,
+              Kubernetes and Helm.
+            </li>
+            <li>
+              Built a comment system that is synced with twitter comments to
+              increase blog engagement.
             </li>
             <li>
               Developed a service that collects statistics and does data
-              visualization using chart.js and built a comment system that is
-              synced with twitter to increase blog engagement.
+              visualization using chart.js
             </li>
             <li>
               Received a{" "}
@@ -124,7 +131,7 @@ function About() {
           <div className={classes.companyDate}>February 2022 - May 2022</div>
           <ul>
             <li>
-              Created entirely &nbsp;
+              Created &nbsp;
               <a
                 style={{
                   color: "#30b8b2",
@@ -133,16 +140,15 @@ function About() {
               >
                 Omima.Art
               </a>
-              &nbsp; on my own all Frontend, Backend and Deployment following
-              all SDLC stages using the Waterfall model.
+              &nbsp; which is an E-commerce Store to sell art for a famous
+              Egyptian artist. Finished all frontend, backend and deployment
+              following all SDLC stages using React, Node and MongoDB.
             </li>
             <li>
-              It is an E-commerce shop for selling paintings for a famous
-              Egyptian artist. With Authentication, Payment, Shipping,
-              Categories, User Collection Systems and Admin Panel. It is now
-              being used by many customers.
+              Implemented Authentication, Payment, Shipping, Categories, User
+              Collection Systems and an Admin Panel for the Online Gallery that
+              is now being used by many customers.
             </li>
-            <li>Used React for Frontend, Node and MongoDB for the Backend.</li>
           </ul>
         </div>
       </div>
