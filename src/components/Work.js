@@ -60,7 +60,7 @@ function About() {
             desertmonitorOÜ
           </div>
           <div style={upworkHighlight} onClick={onClickUpworkHandler}>
-            Upwork
+            Self Employed/Freelance
           </div>
         </div>
         <div className={vodaClasses}>
@@ -120,9 +120,7 @@ function About() {
         </div>
 
         <div className={upworkClasses}>
-          <div className={classes.companyRole}>
-            Freelance Full Stack Developer
-          </div>
+          <div className={classes.companyRole}>Full Stack Developer</div>
           <div className={classes.companyDate}>February 2022 - May 2022</div>
           <ul>
             <li>
