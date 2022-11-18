@@ -60,7 +60,7 @@ function About() {
             desertmonitorOÜ
           </div>
           <div style={upworkHighlight} onClick={onClickUpworkHandler}>
-            Self Employed/Freelance
+            Self Employed
           </div>
         </div>
         <div className={vodaClasses}>
