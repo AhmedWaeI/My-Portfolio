@@ -123,7 +123,7 @@ function About() {
           <div className={classes.companyRole}>
             Freelance Full Stack Developer
           </div>
-          <div className={classes.companyDate}>February 2022 - April 2022</div>
+          <div className={classes.companyDate}>February 2022 - May 2022</div>
           <ul>
             <li>
               Created entirely &nbsp;
