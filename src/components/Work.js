@@ -82,8 +82,8 @@ function About() {
               period using React Native, Node and SQL.
             </li>
             <li>
-              The app was used by the engineers and managers of Vodafone Egypt
-              and i was recognised as a Top Performer.
+              Saved the time it takes engineers and managers to do KPI-checking
+              and analysis by using the app and was selected as a Top Performer.
             </li>
           </ul>
         </div>
@@ -97,19 +97,19 @@ function About() {
             <li>
               Worked on building the infrastructure of the Web of Things
               community, developed backend and frontend solutions and built
-              internal tooling using Node and different database systems.
+              internal tooling.
             </li>
             <li>
               Wrote configuration scripts and deployed services using Docker,
               Kubernetes and Helm.
             </li>
             <li>
-              Built a comment system that is synced with twitter comments to
-              increase blog engagement.
+              Increased blog engagement by building a comment system that is
+              synced with twitter comments.
             </li>
             <li>
               Developed a service that collects statistics and does data
-              visualization using chart.js
+              visualization using Chart.js
             </li>
             <li>
               Received a{" "}
