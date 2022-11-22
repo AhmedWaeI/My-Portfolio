@@ -68,7 +68,7 @@ function About() {
             SWE Intern <span>@ Vodafone</span>
           </div>
           <div className={classes.companyDate}>
-            August 2022 – September 2022
+            1st August 2022 – 31st August 2022
           </div>
           <ul>
             <li>
