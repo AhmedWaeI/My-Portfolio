@@ -69,7 +69,7 @@ const PROJECTS = [
         url: "https://i.ibb.co/zHYg2Zj/cehub3.png",
       },
     ],
-    url: "https://ce-hub.herokuapp.com/schedule",
+    url: "https://github.com/levwtech",
     tech: ["Node", "Express", "MongoDB"],
   },
 
