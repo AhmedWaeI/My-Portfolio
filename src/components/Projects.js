@@ -11,6 +11,7 @@ import mapty from "../assets/mapty.png";
 import weather from "../assets/weather.png";
 import cehub from "../assets/cehub.png";
 import fifa from "../assets/fifa.png";
+import XO from "../assets/XO.png";
 
 const PROJECTS = [
   {
@@ -132,6 +133,19 @@ const PROJECTS = [
       },
     ],
     url: "https://levweather.herokuapp.com/",
+  },
+  {
+    img: XO,
+    title: "Tic Tac Toe",
+    github: "https://github.com/LevwTech/Tic-Tac-Toe",
+    info: "Wrote a tic tac toe game in Low Level Assembly language of the Intel 8086 Processor using EMU8086. A Fully functioning 2 player game with error handling.",
+    images: [
+      {
+        url: "https://i.ibb.co/DQSCRfk/Capture.png",
+      },
+    ],
+    url: "https://github.com/LevwTech/Tic-Tac-Toe/blob/main/game.s",
+    tech: ["Assembly", "Intel8086"],
   },
   {
     img: auth,
