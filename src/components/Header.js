@@ -8,24 +8,25 @@ function Header() {
   Aos.init();
   return (
     <div className={classes.container}>
-      <div data-aos="fade-right" className={classes.hello}>
-        Hello! my name is
+      <div className={classes.intro}>
+        <div>
+          <div data-aos="fade-right" className={classes.hello}>
+            my name is
+          </div>
+          <div data-aos="fade-right" className={classes.myName}>
+            Abdelrahman Mostafa
+            <img
+              src="https://media.tenor.com/Wx9IEmZZXSoAAAAi/hi.gif"
+              alt="waving hand"
+              style={{ width: "40px", height: "40px" }}
+            ></img>
+          </div>
+        </div>
+        <div className={classes.seperator}></div>
+        <div className={classes.imgcontainer}>
+          <img className={classes.img} src={me} alt="My Beautiful Face" />
+        </div>
       </div>
-      <div data-aos="fade-right" className={classes.myName}>
-        Abdelrahman Mostafa
-      </div>
-
-      <div className={classes.imgcontainer}>
-        <img
-          data-aos="zoom-in-up"
-          className={classes.img}
-          src={me}
-          alt="My Beautiful Face"
-        />
-      </div>
-      <ul data-aos="fade-right" className={classes.roles}>
-        <li>💻 Software Engineer</li>
-      </ul>
       <div id="about"></div>
     </div>
   );

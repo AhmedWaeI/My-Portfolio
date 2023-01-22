@@ -3,6 +3,17 @@
 .container {
   padding: 40px;
 }
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media screen and (max-width: 650px) {
+  .intro {
+    flex-direction: column;
+  }
+}
 .hello {
   display: flex;
   justify-content: left;
@@ -18,7 +29,6 @@
 .myName {
   display: flex;
   width: 60%;
-  /* margin: auto; */
   justify-content: left;
   font-size: 50px;
   color: #e8e8e6;
@@ -39,16 +49,11 @@
 }
 .img {
   margin-top: 20px;
-  width: 35%;
-  height: 30%;
+  width: 300px;
+  height: 300px;
   border: #30b8b2 solid 7px;
   color: #30b8b2;
   border-radius: 50%;
-  /* animation-name: borderColor;
-  animation-iteration-count: infinite;
-  animation-duration: 700ms;
-  animation-timing-function: ease;
-  animation-direction: alternate; */
   animation-name: borderColor;
   animation-iteration-count: infinite;
   animation-duration: 1000ms;
@@ -60,36 +65,10 @@
 .img:hover {
   animation-play-state: paused;
 }
-
-/* @keyframes borderColor {
-  0% {
-    border-color: #121212;
-  }
-  33% {
-    border-color: #004b63;
-  }
-  66% {
-    border-color: #30b8b2;
-  }
-  100% {
-    border-color: #e8e8e6;
-  }
-} */
-
-@keyframes borderColor {
-  0% {
-    border-color: #30b8b2;
-  }
-
-  100% {
-    border-color: #004b63;
-  }
-}
-
 @media screen and (max-width: 650px) {
   .img {
-    width: 85%;
-    height: 75%;
+    width: 250px;
+    height: 250px;
   }
 }
 .imgcontainer {
@@ -108,17 +87,31 @@
   color: #30b8b2;
 }
 
-.roles li {
-  margin-right: 5%;
-  margin-top: 3%;
-  font-size: 25px;
-  font-family: "Source Sans Pro", sans-serif;
-}
-@media screen and (max-width: 650px) {
-  .roles {
-    flex-flow: column wrap;
+@keyframes borderColor {
+  0% {
+    border-color: #30b8b2;
   }
-  .roles li {
-    font-size: 20px;
+
+  100% {
+    border-color: #004b63;
+  }
+}
+
+.seperator {
+  width: 400px;
+}
+@media screen and (max-width: 1500px) {
+  .seperator {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .seperator {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .seperator {
+    width: 0px;
   }
 }

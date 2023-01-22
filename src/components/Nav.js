@@ -20,6 +20,9 @@ function Nav() {
           <HashLink className="remove" smooth to="/#about">
             <li>About</li>
           </HashLink>
+          <HashLink className="remove" smooth to="/#education">
+            <li>Education</li>
+          </HashLink>
           <HashLink className="remove" smooth to="/#work">
             <li>Work</li>
           </HashLink>

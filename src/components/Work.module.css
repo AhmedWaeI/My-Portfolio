@@ -1,96 +1,85 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-.work {
-  color: #e8e8e6;
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
+
+/* font-family: "Roboto", sans-serif; */
+/* list-style-image: url("../assets/right-arrow.png"); */
+
+.works {
   display: flex;
-  flex-flow: row nowrap;
-  width: 80%;
+  flex-flow: row wrap;
+  width: 90%;
   margin: auto;
-  margin-bottom: 50px;
-  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  color: #8e8b8b;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+@media screen and (max-width: 650px) {
+  .works {
+    flex-flow: column wrap;
+  }
+}
+.work {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 40%;
+  margin: 0 10px;
+  border: #e8e8e6 solid 1px;
+  border-radius: 10px;
+  height: 600px;
+  background-color: #e8e8e6;
+  margin-top: 30px;
 }
 @media screen and (max-width: 650px) {
   .work {
-    font-size: 16px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-flow: column nowrap;
-  }
-}
-.companies {
-  width: 30%;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-@media screen and (max-width: 650px) {
-  .companies {
     width: 100%;
-    flex-flow: row nowrap;
+    margin: auto;
     margin-bottom: 20px;
   }
 }
-.companies div {
-  margin-top: 15px;
-}
-.companies div:hover {
-  color: #30b8b2;
-  cursor: pointer;
-}
 
-@media screen and (max-width: 650px) {
-  .companies div {
-    margin-top: 0px;
-    margin-right: 10px;
-  }
+.companyName {
+  margin-bottom: 30px;
+  font-size: 25px;
+  color: white;
 }
-.company {
-  width: 70%;
+.companyLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40px;
 }
-@media screen and (max-width: 650px) {
-  .company {
-    width: 100%;
-    margin-left: 20px;
-  }
+.companyLogo img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 50%;
+  border: white solid 1px;
 }
-.company .companyRole {
-  font-size: 22px;
-  margin-bottom: 5px;
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
 }
-@media screen and (max-width: 650px) {
-  .company .companyRole {
-    font-size: 18px;
-  }
+.role {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
 }
-.company .companyRole span {
-  color: #30b8b2;
+.date {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 10px;
 }
-.company .companyRole span:hover {
-  color: rgb(157, 230, 226);
-}
-
-.company .companyDate {
-  font-size: 16px;
-  margin-bottom: 25px;
-}
-@media screen and (max-width: 650px) {
-  .company .companyDate {
-    font-size: 14px;
-    margin-bottom: 15px;
-  }
-}
-.company ul {
-  list-style-image: url("../assets/right-arrow.png");
-}
-
-.company ul li {
+.points ul {
+  list-style-position: inside;
+  margin-left: 0.75em;
   text-align: left;
-  margin-top: 15px;
+  margin-top: 10px;
 }
-.hide {
-  display: none;
+.points ul li {
+  margin-top: 15px;
 }

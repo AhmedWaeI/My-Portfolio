@@ -7,14 +7,14 @@
   flex-flow: column wrap;
   justify-content: space-around;
   font-family: "Roboto", sans-serif;
-  height: 250px;
+  height: 300px;
   font-size: 20px;
-  margin-bottom: 30px;
 }
 @media screen and (max-width: 650px) {
   .aboutme {
     height: 350px;
     font-size: 16px;
+    margin-top: -20px;
   }
 }
 .aboutme span {
@@ -23,7 +23,7 @@
 .aboutme span:hover {
   color: rgb(157, 230, 226);
 }
-.levw {
+.orange {
   font-weight: bold;
   color: #ff7a4f !important;
 }

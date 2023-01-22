@@ -1,0 +1,44 @@
+.uni {
+  display: flex;
+  flex-flow: column wrap;
+  width: 80%;
+  margin: auto;
+  color: #e8e8e6;
+  font-family: "Roboto", sans-serif;
+}
+@media screen and (max-width: 650px) {
+  .uni {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+.bueLogo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.bueInfo {
+  margin-top: 20px;
+}
+
+.bue {
+  font-weight: bold;
+  font-size: 25px;
+}
+.major,
+.date,
+.gpa {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.points ul li {
+  margin-top: 5px;
+}
+.points ul {
+  list-style-position: inside;
+  margin-left: 0.75em;
+  text-align: left;
+  margin-top: 10px;
+  color: #8e8b8b;
+}

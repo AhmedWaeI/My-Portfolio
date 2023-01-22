@@ -7,7 +7,10 @@ import Work from "./components/Work";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
-import Footer from "./Footer";
+import Footer from "./components/Footer";
+import Education from "./components/Education";
+import ScrollToTop from "./components/ScrollToTop";
+
 import { BrowserRouter, Route } from "react-router-dom";
 
 function App() {
@@ -18,11 +21,13 @@ function App() {
           <Nav />
           <Header />
           <About />
+          <Education />
           <Work />
           <Projects />
           <Skills />
           <Contact />
           <Footer />
+          <ScrollToTop />
         </div>
       </Route>
     </BrowserRouter>
