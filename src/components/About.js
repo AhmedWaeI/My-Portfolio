@@ -14,7 +14,20 @@ function About() {
         <div data-aos="fade">
           My passion is using <span>science and technology</span> to build high
           performance, scalable and well designed systems and
-          <span> solving </span> 🎯 hard <span>problems</span>.
+          <span> solving </span> 🎯 hard <span>problems</span>. I like to{" "}
+          <span>
+            <a
+              href="https://dev.to/levw"
+              style={{
+                color: "#00E8FC",
+              }}
+              target="_blank"
+              rel="noreferrer"
+            >
+              write
+            </a>
+          </span>
+          , sometimes.
         </div>
         <div data-aos="fade">
           Currently, i'm studying <span>computer engineering</span>👨🏻‍💻 at BUE

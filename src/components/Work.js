@@ -122,6 +122,8 @@ function Work() {
                     color: "#00E8FC",
                   }}
                   href="https://omima.art"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Omima.Art
                 </a>
