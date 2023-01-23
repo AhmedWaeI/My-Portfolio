@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import "./ScrollToTop.css";
-import scrollTop from "../assets/scrollTop.png";
+import scrollTop from "../assets/top.png";
 function ScrollToTop() {
   const [showButton, setShowButton] = useState(false);
 
