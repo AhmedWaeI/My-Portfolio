@@ -7,7 +7,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: transparent;
-  color: #30b8b2;
+  color: #00e8fc;
   /* font-family: "Roboto", sans-serif; */
 }
 @media (max-width: 650px) {
@@ -35,13 +35,13 @@
 .navbar-links li {
   list-style: none;
   display: block;
-  color: #e8e8e6;
+  color: #eae8ff;
   padding: 1rem;
 }
 
 .navbar-links li:hover {
-  color: #30b8b2;
-  border-bottom: #30b8b2 1px solid;
+  color: #00e8fc;
+  border-bottom: #00e8fc 1px solid;
 }
 
 .toggle-button {
@@ -58,7 +58,7 @@
 .toggle-button .bar {
   height: 3px;
   width: 100%;
-  background-color: #e8e8e6;
+  background-color: #eae8ff;
   border-radius: 10px;
 }
 

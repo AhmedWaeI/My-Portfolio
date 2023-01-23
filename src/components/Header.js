@@ -23,7 +23,7 @@ function Header() {
           </div>
         </div>
         <div className={classes.seperator}></div>
-        <div className={classes.imgcontainer}>
+        <div className={classes.box}>
           <img className={classes.img} src={me} alt="My Beautiful Face" />
         </div>
       </div>

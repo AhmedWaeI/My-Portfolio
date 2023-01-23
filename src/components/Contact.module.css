@@ -14,21 +14,21 @@
   }
 }
 .emailcontainer span {
-  color: #30b8b2;
+  color: #00e8fc;
 }
 .emailcontainer p {
-  color: #e8e8e6;
+  color: #eae8ff;
   width: 80%;
   margin: auto;
 }
 .linkedin {
   text-decoration: none;
-  color: #ff7a4f;
-  border-bottom: #ff7a4f solid 2px;
+  color: #00e8fc;
+  border-bottom: #00e8fc solid 2px;
 }
 .email {
   text-decoration: none;
-  border: #30b8b2 solid 2px;
+  border: #00e8fc solid 2px;
   width: 30%;
   margin: auto;
   color: #e8e8e6;
@@ -43,16 +43,16 @@
 }
 .email:hover {
   transform: translateX(10px);
-  box-shadow: 5px 5px#30B8B2;
+  box-shadow: 3px 5px#00E8FC;
   animation-play-state: paused;
 }
 
 @keyframes borderColor {
   0% {
-    border-color: #30b8b2;
+    border-color: #00e8fc;
   }
 
   100% {
-    border-color: #004b63;
+    border-color: #0b132b;
   }
 }

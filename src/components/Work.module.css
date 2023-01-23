@@ -10,7 +10,7 @@
   margin: auto;
   justify-content: center;
   align-items: center;
-  color: #8e8b8b;
+  color: #0b132b;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
 }
@@ -24,10 +24,10 @@
   flex-flow: column nowrap;
   width: 40%;
   margin: 0 10px;
-  border: #e8e8e6 solid 1px;
+  border: #eae8ff solid 1px;
   border-radius: 10px;
   height: 600px;
-  background-color: #e8e8e6;
+  background-color: #eae8ff;
   margin-top: 30px;
 }
 @media screen and (max-width: 650px) {
@@ -41,7 +41,7 @@
 .companyName {
   margin-bottom: 30px;
   font-size: 25px;
-  color: white;
+  color: #eae8ff;
 }
 .companyLogo {
   display: flex;
@@ -54,7 +54,7 @@
   height: 80px;
   object-fit: contain;
   border-radius: 50%;
-  border: white solid 1px;
+  border: #eae8ff solid 1px;
 }
 .background {
   display: flex;

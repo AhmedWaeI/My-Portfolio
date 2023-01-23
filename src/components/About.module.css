@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 .aboutme {
-  color: #e8e8e6;
+  color: #eae8ff;
   width: 80%;
   margin: auto;
   display: flex;
@@ -18,12 +18,8 @@
   }
 }
 .aboutme span {
-  color: #30b8b2;
+  color: #00e8fc;
 }
 .aboutme span:hover {
-  color: rgb(157, 230, 226);
-}
-.orange {
   font-weight: bold;
-  color: #ff7a4f !important;
 }

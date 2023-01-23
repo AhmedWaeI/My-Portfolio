@@ -85,7 +85,9 @@ function Work() {
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  style={{ color: "#30b8b2" }}
+                  style={{
+                    color: "#00E8FC",
+                  }}
                   href="https://drive.google.com/file/d/1Ez9lXfP-EuewYklkM14MLkqb2adRQVB9/view?usp=sharing"
                 >
                   letter of recommendation
@@ -117,7 +119,7 @@ function Work() {
                 Created &nbsp;
                 <a
                   style={{
-                    color: "#30b8b2",
+                    color: "#00E8FC",
                   }}
                   href="https://omima.art"
                 >

@@ -18,7 +18,7 @@
   display: flex;
   justify-content: left;
   font-size: 50px;
-  color: #30b8b2;
+  color: #eae8ff;
   font-family: "Birthstone", cursive;
 }
 @media screen and (max-width: 650px) {
@@ -31,7 +31,7 @@
   width: 60%;
   justify-content: left;
   font-size: 50px;
-  color: #e8e8e6;
+  color: #eae8ff;
   text-align: left;
   font-family: sans-serif;
 }
@@ -48,55 +48,105 @@
   }
 }
 .img {
-  margin-top: 20px;
-  width: 300px;
-  height: 300px;
-  border: #30b8b2 solid 7px;
-  color: #30b8b2;
-  border-radius: 50%;
-  animation-name: borderColor;
-  animation-iteration-count: infinite;
-  animation-duration: 1000ms;
-  animation-timing-function: ease;
-  animation-direction: alternate;
-  background-color: aqua;
+  width: 290px;
+  height: 290px;
+  color: #eae8ff;
 }
 
-.img:hover {
-  animation-play-state: paused;
-}
 @media screen and (max-width: 650px) {
   .img {
+    width: 240px;
+    height: 240px;
+    margin: auto;
+  }
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 90deg;
+  inherits: true;
+}
+
+@property --gradX {
+  syntax: "<percentage>";
+  initial-value: 50%;
+  inherits: true;
+}
+
+@property --gradY {
+  syntax: "<percentage>";
+  initial-value: 0%;
+  inherits: true;
+}
+:root {
+  --d: 2500ms;
+  --angle: 90deg;
+  --gradX: 100%;
+  --gradY: 50%;
+  --c1: #eae8ff;
+  --c2: #0f1938;
+}
+.box {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  margin-top: 30px;
+  border: 5px solid;
+  border-image: conic-gradient(
+      from var(--angle),
+      var(--c2),
+      var(--c1) 0.1turn,
+      var(--c1) 0.15turn,
+      var(--c2) 0.25turn
+    )
+    30;
+  animation: borderRotate var(--d) linear infinite forwards;
+}
+@media screen and (max-width: 650px) {
+  .box {
     width: 250px;
     height: 250px;
   }
 }
-.imgcontainer {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
+.box:nth-child(2) {
+  border-image: radial-gradient(
+      ellipse at var(--gradX) var(--gradY),
+      var(--c1),
+      var(--c1) 10%,
+      var(--c2) 40%
+    )
+    30;
+  animation: borderRadial var(--d) linear infinite forwards;
 }
 
-.roles {
-  margin-top: 20px;
-  margin-left: 20px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  color: #30b8b2;
-}
-
-@keyframes borderColor {
-  0% {
-    border-color: #30b8b2;
-  }
-
+@keyframes borderRotate {
   100% {
-    border-color: #004b63;
+    --angle: 420deg;
   }
 }
 
+@keyframes borderRadial {
+  20% {
+    --gradX: 100%;
+    --gradY: 50%;
+  }
+  40% {
+    --gradX: 100%;
+    --gradY: 100%;
+  }
+  60% {
+    --gradX: 50%;
+    --gradY: 100%;
+  }
+  80% {
+    --gradX: 0%;
+    --gradY: 50%;
+  }
+  100% {
+    --gradX: 50%;
+    --gradY: 0%;
+  }
+}
 .seperator {
   width: 400px;
 }

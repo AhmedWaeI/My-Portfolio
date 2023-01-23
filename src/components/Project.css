@@ -7,8 +7,7 @@
 }
 
 body {
-  background-image: linear-gradient(to right, #121212, #004b63);
-  /* background-color: #121212; */
+  background-color: #0b132b;
   font-family: "Josefin Sans", sans-serif;
 }
 
@@ -32,18 +31,18 @@ body {
 }
 
 .team .team_member {
-  /* background: #e8e8e6; */
+  /* background-color: #EAE8FF; */
   margin: 5px;
   margin-bottom: 50px;
   width: 300px;
   padding: 20px;
   line-height: 20px;
-  color: #8e8b8b;
+  color: #0b132b;
   position: relative;
 }
 
 .team .team_member h3 {
-  color: #30b8b2;
+  color: #0b132b;
   font-size: 26px;
   margin-top: 50px;
 }
@@ -152,12 +151,12 @@ body {
 
 .allTechUsed {
   margin-bottom: 15px;
-  color: #30b8b2;
+  color: #1c2541;
   font-weight: bold;
 }
 .techUsed {
-  border: solid 2px #c1e9fc;
-  background-color: #ddf4ff;
+  border: solid 2px #c9c6cc;
+  background-color: #d8d5db;
   border-radius: 30px;
   padding: 5px;
   margin-right: 2px;

@@ -28,18 +28,18 @@ div {
 }
 
 .team .team_member {
-  background-color: #e8e8e6;
+  background-color: #eae8ff;
   margin: 5px;
   margin-bottom: 50px;
   width: 300px;
   padding: 20px;
   line-height: 20px;
-  color: #8e8b8b;
+  color: #0b132b;
   position: relative;
 }
 
 .team .team_member h3 {
-  color: #30b8b2;
+  color: #0b132b;
   font-size: 26px;
   margin-top: 50px;
 }

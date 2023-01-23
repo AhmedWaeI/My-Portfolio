@@ -8,9 +8,8 @@ function About() {
       <div className={classes.aboutme}>
         <div data-aos="fade">
           I'm
-          <span> Levw</span>. A
-          <span className={classes.orange}> Software Engineer </span> currently
-          📍 based in <span>Egypt</span>.
+          <span> Levw</span>. A<span> Software Engineer </span> currently 📍
+          based in <span>Egypt</span>.
         </div>
         <div data-aos="fade">
           My passion is using <span>science and technology</span> to build high
