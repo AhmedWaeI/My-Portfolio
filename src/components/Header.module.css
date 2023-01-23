@@ -51,6 +51,7 @@
   width: 290px;
   height: 290px;
   color: #eae8ff;
+  border-radius: 30px;
 }
 
 @media screen and (max-width: 650px) {
@@ -61,92 +62,6 @@
   }
 }
 
-@property --angle {
-  syntax: "<angle>";
-  initial-value: 90deg;
-  inherits: true;
-}
-
-@property --gradX {
-  syntax: "<percentage>";
-  initial-value: 50%;
-  inherits: true;
-}
-
-@property --gradY {
-  syntax: "<percentage>";
-  initial-value: 0%;
-  inherits: true;
-}
-:root {
-  --d: 2500ms;
-  --angle: 90deg;
-  --gradX: 100%;
-  --gradY: 50%;
-  --c1: #eae8ff;
-  --c2: #0f1938;
-}
-.box {
-  margin: auto;
-  width: 300px;
-  height: 300px;
-  margin-top: 30px;
-  border: 5px solid;
-  border-image: conic-gradient(
-      from var(--angle),
-      var(--c2),
-      var(--c1) 0.1turn,
-      var(--c1) 0.15turn,
-      var(--c2) 0.25turn
-    )
-    30;
-  animation: borderRotate var(--d) linear infinite forwards;
-}
-@media screen and (max-width: 650px) {
-  .box {
-    width: 250px;
-    height: 250px;
-  }
-}
-.box:nth-child(2) {
-  border-image: radial-gradient(
-      ellipse at var(--gradX) var(--gradY),
-      var(--c1),
-      var(--c1) 10%,
-      var(--c2) 40%
-    )
-    30;
-  animation: borderRadial var(--d) linear infinite forwards;
-}
-
-@keyframes borderRotate {
-  100% {
-    --angle: 420deg;
-  }
-}
-
-@keyframes borderRadial {
-  20% {
-    --gradX: 100%;
-    --gradY: 50%;
-  }
-  40% {
-    --gradX: 100%;
-    --gradY: 100%;
-  }
-  60% {
-    --gradX: 50%;
-    --gradY: 100%;
-  }
-  80% {
-    --gradX: 0%;
-    --gradY: 50%;
-  }
-  100% {
-    --gradX: 50%;
-    --gradY: 0%;
-  }
-}
 .seperator {
   width: 400px;
 }
@@ -163,5 +78,52 @@
 @media screen and (max-width: 1150px) {
   .seperator {
     width: 0px;
+  }
+}
+
+.box {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+
+  --border-size: 20px;
+  --border-angle: 0turn;
+  background-image: conic-gradient(
+      from var(--border-angle),
+      #213,
+      #112 50%,
+      #213
+    ),
+    conic-gradient(from var(--border-angle), transparent 20%, #0b132b, #00e8fc);
+  background-size: calc(100% - (var(--border-size) * 2))
+      calc(100% - (var(--border-size) * 2)),
+    cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  animation: bg-spin 3s linear infinite;
+}
+@keyframes bg-spin {
+  to {
+    --border-angle: 1turn;
+  }
+}
+.box:hover {
+  animation-play-state: paused;
+}
+@property --border-angle {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0turn;
+}
+@media screen and (max-width: 650px) {
+  .box {
+    width: 250px;
+    height: 250px;
   }
 }
