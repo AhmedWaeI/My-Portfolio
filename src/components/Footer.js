@@ -18,7 +18,7 @@ function Footer() {
         </a>
       </div>
       <div className={classes.footer}>
-        Desgined &#38; Built by Abdelrahman Mostafa
+        Designed &#38; Built by Abdelrahman Mostafa
       </div>
       <div id="contact"></div>
     </div>
