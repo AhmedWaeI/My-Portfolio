@@ -41,9 +41,8 @@ function Work() {
                 certain period using React Native, Node and SQL.
               </li>
               <li>
-                Saved the time it takes engineers and managers to do
-                KPI-checking and analysis by using the app and was selected as a
-                Top Performer.
+                Reduced KPI-checking and analysis time by using the app, and was
+                selected as a Top Performer.
               </li>
             </ul>
           </div>
