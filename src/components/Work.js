@@ -30,19 +30,18 @@ function Work() {
           <div className={classes.points}>
             <ul>
               <li>
-                Built and delivered an internal cross platform mobile
-                application to display KPI metrics and to quickly and
-                effectively monitor the performance of the network throughout
-                the country.
+                Developed and delivered a cross-platform mobile app to monitor
+                KPI metrics and network performance, using React Native,
+                Node.js, and SQL.
               </li>
               <li>
-                Developed features such as charts, graphs and Google-powered map
-                with all the points where network failures happened over a
-                certain period using React Native, Node and SQL.
+                Implemented interactive charts, graphs, and a Google Map
+                integration to visualize network performance over time, leading
+                to enhanced data analysis and decision making.
               </li>
               <li>
-                Reduced KPI-checking and analysis time by using the app, and was
-                selected as a Top Performer.
+                Improved KPI checking efficiency, reducing analysis and checking
+                time, and earning recognition as a top performer.
               </li>
             </ul>
           </div>
@@ -68,16 +67,17 @@ function Work() {
                 internal tooling.
               </li>
               <li>
-                Wrote configuration scripts and deployed services using Docker,
-                Kubernetes and Helm.
+                Deployed microservices using Docker, Kubernetes, Helm,
+                streamlining the process with configuration scripts.
               </li>
               <li>
-                Increased blog engagement by building a comment system that is
-                synced with twitter comments.
+                Boosted blog engagement through development of a comment system
+                for the company blog that syncs with Twitter comments.
               </li>
               <li>
-                Developed a service that collects statistics and does data
-                visualization using Chart.js
+                Created a service for data visualization and statistics
+                collection utilizing Chart.js, Node.js and MongoDB, enabling
+                effective collection and analysis of key metrics and statistics.
               </li>
               <li>
                 Received a{" "}
@@ -115,7 +115,7 @@ function Work() {
           <div className={classes.points}>
             <ul>
               <li>
-                Created &nbsp;
+                Built &nbsp;
                 <a
                   style={{
                     color: "#00E8FC",
@@ -126,14 +126,14 @@ function Work() {
                 >
                   Omima.Art
                 </a>
-                &nbsp; which is an E-commerce Store to sell art for a famous
-                Egyptian artist. Finished all frontend, backend and deployment
-                following all SDLC stages using React, Node and MongoDB.
+                , an E-commerce platform for a famous Egyptian artist, using
+                React.js, Node.js, and MongoDB, and successfully managed all
+                stages of the SDLC.
               </li>
               <li>
-                Implemented Authentication, Payment, Shipping, Categories, User
-                Collection Systems and an Admin Panel for the Online Gallery
-                that is now being used by many customers.
+                Developed authentication, payment, shipping, categorization,
+                user collection, and admin panel systems for the online gallery,
+                resulting in increased customer satisfaction.
               </li>
             </ul>
           </div>
