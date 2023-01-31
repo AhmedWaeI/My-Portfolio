@@ -132,7 +132,7 @@ const PROJECTS = [
         url: "https://i.ibb.co/M7CR9tm/weather.png",
       },
     ],
-    url: "https://levweather.herokuapp.com/",
+    url: "https://github.com/LevwTech/LevWeather",
   },
   {
     img: XO,
