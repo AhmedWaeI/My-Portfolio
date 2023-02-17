@@ -5,6 +5,8 @@
   margin: auto;
   color: #eae8ff;
   font-family: "Roboto", sans-serif;
+  /* justify-content: center;
+  align-items: center; */
 }
 @media screen and (max-width: 650px) {
   .uni {

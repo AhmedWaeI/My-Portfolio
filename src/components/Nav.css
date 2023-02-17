@@ -1,18 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 .navbar {
-  margin-top: 40px;
-  margin-right: 40px;
+  padding-top: 15px;
   display: flex;
-  position: relative;
+  position: fixed;
   justify-content: space-between;
   align-items: center;
-  background-color: transparent;
   color: #00e8fc;
-}
-@media (max-width: 650px) {
-  .navbar {
-    margin: 15px;
-  }
+  background-color: #0b132b;
+  width: 100%;
+  z-index: 200;
+  top: 0;
+  left: 0;
+  transition: top 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 
 .brand-title {
@@ -40,7 +39,7 @@
 
 .navbar-links li:hover {
   color: #00e8fc;
-  /* border-bottom: #00e8fc 1px solid; */
+  border-bottom: #00e8fc 1px solid;
 }
 
 .toggle-button {
@@ -52,6 +51,7 @@
   justify-content: space-between;
   width: 30px;
   height: 21px;
+  margin-top: 5px;
 }
 
 .toggle-button .bar {
