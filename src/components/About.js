@@ -1,7 +1,7 @@
 import classes from "./About.module.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import me from "../assets/me.jpeg";
+import me from "../assets/me.png";
 import HeaderTitle from "./HeadingTitle";
 function About() {
   Aos.init();
@@ -36,7 +36,7 @@ function About() {
             style={{
               width: "200px",
               height: "200px",
-              borderRadius: "20px",
+              borderRadius: "15px",
             }}
           />
         </div>
