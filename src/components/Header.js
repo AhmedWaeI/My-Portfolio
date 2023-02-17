@@ -23,6 +23,7 @@ function Header() {
               href="https://dev.to/levw"
               style={{
                 color: "#00E8FC",
+                fontWeight: "bold",
               }}
               target="_blank"
               rel="noreferrer"
