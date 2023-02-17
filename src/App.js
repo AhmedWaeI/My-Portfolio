@@ -19,17 +19,8 @@ function App() {
       <Route path="/">
         <div className={classes.container}>
           <Nav />
-          <div
-            style={{
-              minHeight: "100vh",
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-            }}
-          >
-            <Header />
-            <About />
-          </div>
+          <Header />
+          <About />
           <Education />
           <Work />
           <Projects />

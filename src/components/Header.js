@@ -1,30 +1,36 @@
 import React from "react";
 import classes from "./Header.module.css";
-import me from "../assets/me.jpeg";
-import Aos from "aos";
-import "aos/dist/aos.css";
 
 function Header() {
-  Aos.init();
   return (
-    <div className={classes.container}>
+    <div style={{}}>
       <div className={classes.intro}>
-        <div>
-          <div data-aos="fade-right" className={classes.hello}>
-            my name is
-          </div>
-          <div data-aos="fade-right" className={classes.myName}>
-            Abdelrahman Mostafa
-            <img
-              src="https://media.tenor.com/Wx9IEmZZXSoAAAAi/hi.gif"
-              alt="waving hand"
-              style={{ width: "40px", height: "40px" }}
-            ></img>
-          </div>
+        <div data-aos="fade-right" className={classes.hello}>
+          Hi, my name is
         </div>
-        <div className={classes.seperator}></div>
-        <div className={classes.box}>
-          <img className={classes.img} src={me} alt="My Beautiful Face" />
+        <div data-aos="fade-right" className={classes.myName}>
+          Abdelrahman Mostafa
+        </div>
+        <div data-aos="fade-right" className={classes.myRole}>
+          I'm a Software Engineer
+        </div>
+        <div data-aos="fade" className={classes.aboutme}>
+          My passion is using <span>science and technology</span> to build high
+          performance, scalable and well designed systems and
+          <span> solving </span> 🎯 hard <span>problems</span>. I also like to{" "}
+          <span>
+            <a
+              href="https://dev.to/levw"
+              style={{
+                color: "#00E8FC",
+              }}
+              target="_blank"
+              rel="noreferrer"
+            >
+              write
+            </a>
+          </span>
+          , sometimes.
         </div>
       </div>
       <div id="about"></div>

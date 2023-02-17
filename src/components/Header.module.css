@@ -1,133 +1,88 @@
 @import url("https://fonts.googleapis.com/css2?family=Birthstone&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
-.container {
-  padding: 40px;
-}
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
 .intro {
-  margin-top: 40px !important;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  min-height: 100vh;
   width: 80%;
   margin: auto;
-  /* background-color: red; */
 }
-
 @media screen and (max-width: 650px) {
   .intro {
-    flex-direction: column;
+    padding-top: 100px;
   }
 }
+
 .hello {
-  display: flex;
-  justify-content: left;
-  font-size: 50px;
-  color: #eae8ff;
+  font-size: 30px;
+  color: #00e8fc;
   font-family: "Birthstone", cursive;
 }
 @media screen and (max-width: 650px) {
   .hello {
-    font-size: 40px;
+    font-size: 25px;
   }
 }
 .myName {
-  display: flex;
+  padding-top: 10px;
+  display: inline-block;
   width: 60%;
-  justify-content: left;
   font-size: 50px;
-  color: #eae8ff;
+  color: #00e8fc;
   text-align: left;
-  font-family: sans-serif;
+  position: relative;
+  font-family: "Righteous";
 }
-@media screen and (max-width: 650px) {
-  .myName {
-    width: 100%;
-    font-size: 45px;
-  }
+
+.hello::after {
+  content: "";
+  display: inline-block;
+  width: 40px; /* adjust this value to match the width of your icon */
+  height: 40px; /* adjust this value to match the height of your icon */
+  background-image: url("https://media.tenor.com/Wx9IEmZZXSoAAAAi/hi.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 8px; /* adjust this value to add some space between the name and the icon */
+  /* margin-top: 25px; */
 }
+
 @media screen and (max-width: 360px) {
   .myName {
     width: 100%;
     font-size: 35px;
   }
 }
-.img {
-  width: 290px;
-  height: 290px;
+
+.myRole {
+  padding-top: 10px;
+  display: inline-block;
+  width: 60%;
+  font-size: 40px;
   color: #eae8ff;
-  border-radius: 30px;
+  text-align: left;
+  position: relative;
+  font-family: "Righteous", cursive;
 }
-
-@media screen and (max-width: 650px) {
-  .img {
-    width: 240px;
-    height: 240px;
-    margin: auto;
-  }
-}
-
-.seperator {
-  width: 400px;
-}
-@media screen and (max-width: 1500px) {
-  .seperator {
-    width: 300px;
-  }
-}
-@media screen and (max-width: 1300px) {
-  .seperator {
-    width: 200px;
-  }
-}
-@media screen and (max-width: 1150px) {
-  .seperator {
-    width: 0px;
-  }
-}
-
-.box {
-  width: 300px;
-  height: 300px;
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 30px;
-
-  --border-size: 20px;
-  --border-angle: 0turn;
-  background-image: conic-gradient(
-      from var(--border-angle),
-      #213,
-      #112 50%,
-      #213
-    ),
-    conic-gradient(from var(--border-angle), transparent 20%, #0b132b, #00e8fc);
-  background-size: calc(100% - (var(--border-size) * 2))
-      calc(100% - (var(--border-size) * 2)),
-    cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-
-  animation: bg-spin 3s linear infinite;
-}
-@keyframes bg-spin {
-  to {
-    --border-angle: 1turn;
-  }
-}
-.box:hover {
-  animation-play-state: paused;
-}
-@property --border-angle {
-  syntax: "<angle>";
-  inherits: true;
-  initial-value: 0turn;
+.aboutme {
+  padding-top: 10px;
+  color: #eae8ff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
 }
 @media screen and (max-width: 650px) {
-  .box {
-    width: 250px;
-    height: 250px;
+  .aboutme {
+    padding-top: 40px;
+    height: 350px;
+    font-size: 14px;
+    margin-top: -20px;
   }
+}
+.aboutme span {
+  color: #00e8fc;
 }

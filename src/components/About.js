@@ -1,43 +1,48 @@
 import classes from "./About.module.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import me from "../assets/me.jpeg";
+import HeaderTitle from "./HeadingTitle";
 function About() {
   Aos.init();
   return (
-    <div>
-      <div className={classes.aboutme}>
-        <div data-aos="fade">
-          I'm
-          <span> Levw</span>. A<span> Software Engineer </span> currently 📍
-          based in <span>Egypt</span>.
-        </div>
-        <div data-aos="fade">
-          My passion is using <span>science and technology</span> to build high
-          performance, scalable and well designed systems and
-          <span> solving </span> 🎯 hard <span>problems</span>. I like to{" "}
-          <span>
-            <a
-              href="https://dev.to/levw"
-              style={{
-                color: "#00E8FC",
-              }}
-              target="_blank"
-              rel="noreferrer"
-            >
-              write
-            </a>
-          </span>
-          , sometimes.
-        </div>
-        <div data-aos="fade">
+    <div
+      style={{
+        minHeight: "100vh",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+      }}
+    >
+      <HeaderTitle title="About me" />
+      <div className={classes.container}>
+        <div data-aos="fade" className={classes.aboutme}>
           Currently, i'm studying <span>computer engineering</span>👨🏻‍💻 at BUE
           with an overall grade of <span>A+</span> and expected to graduate in
           2024. I'm experienced in Frontend and <span>Backend</span> Development
           so feel free to contact me for any new opportunities.
         </div>
-
-        <div id="education"></div>
+        <div
+          className={classes.imgcontainer}
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <img
+            src={me}
+            alt="Levw"
+            style={{
+              width: "200px",
+              height: "200px",
+              borderRadius: "20px",
+            }}
+          />
+        </div>
       </div>
+
+      <div id="education"></div>
     </div>
   );
 }
