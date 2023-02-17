@@ -8,7 +8,6 @@
   align-items: center;
   background-color: transparent;
   color: #00e8fc;
-  /* font-family: "Roboto", sans-serif; */
 }
 @media (max-width: 650px) {
   .navbar {
@@ -41,7 +40,7 @@
 
 .navbar-links li:hover {
   color: #00e8fc;
-  border-bottom: #00e8fc 1px solid;
+  /* border-bottom: #00e8fc 1px solid; */
 }
 
 .toggle-button {
