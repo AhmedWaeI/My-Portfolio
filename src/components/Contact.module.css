@@ -29,11 +29,11 @@
 .email {
   text-decoration: none;
   border: #00e8fc solid 2px;
-  width: 30%;
+  border-radius: 10px;
   margin: auto;
   color: #e8e8e6;
-  margin-top: 20px;
-  padding: 1px;
+  margin: 20px auto auto;
+  padding: 10px 36px;
   transition-duration: 400ms;
   animation-name: borderColor;
   animation-iteration-count: infinite;
