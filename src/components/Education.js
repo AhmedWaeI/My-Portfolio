@@ -7,7 +7,14 @@ import bue from "../assets/bue.jpg";
 function Header() {
   Aos.init();
   return (
-    <div>
+    <div
+      style={{
+        minHeight: "100vh",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+      }}
+    >
       <HeadingTitle title="Education" />
       <div className={classes.uni}>
         <div className={classes.bueLogo}>

@@ -63,7 +63,16 @@ function Skills() {
     { skill: "Firebase", img: firebase },
   ];
   return (
-    <div className="parentSkills" data-aos="zoom-in">
+    <div
+      className="parentSkills"
+      data-aos="zoom-in"
+      style={{
+        minHeight: "100vh",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+      }}
+    >
       <HeadingTitle title="My Skills" />
       <div className="skillsContainer">
         {Skills.map((Skill) => (

@@ -25,8 +25,18 @@ function App() {
           <Work />
           <Projects />
           <Skills />
-          <Contact />
-          <Footer />
+          <div
+            style={{
+              minHeight: "100vh",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "space-between",
+            }}
+          >
+            <Contact />
+            <Footer />
+          </div>
+
           <ScrollToTop />
         </div>
       </Route>
