@@ -73,13 +73,14 @@
   padding-top: 10px;
   color: #eae8ff;
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+
+  font-size: 20px;
 }
 @media screen and (max-width: 650px) {
   .aboutme {
     padding-top: 40px;
     height: 350px;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: -20px;
   }
 }
