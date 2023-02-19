@@ -27,7 +27,7 @@ function Project(props) {
             style={{
               margin: "auto",
 
-              boxShadow: `0px 1px 10px 1px #00E8FC`,
+              boxShadow: `0px 1px 10px 1px #004B63`,
             }}
             images={props.images}
             showBullets={true}

@@ -85,7 +85,7 @@ function Work() {
                   rel="noreferrer"
                   target="_blank"
                   style={{
-                    color: "#00E8FC",
+                    color: "#004B63",
                   }}
                   href="https://drive.google.com/file/d/1Ez9lXfP-EuewYklkM14MLkqb2adRQVB9/view?usp=sharing"
                 >
@@ -115,10 +115,10 @@ function Work() {
           <div className={classes.points}>
             <ul>
               <li>
-                Built &nbsp;
+                Built&nbsp;
                 <a
                   style={{
-                    color: "#00E8FC",
+                    color: "#004B63",
                   }}
                   href="https://omima.art"
                   target="_blank"
