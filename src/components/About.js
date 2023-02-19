@@ -15,6 +15,7 @@ function About() {
       }}
     >
       <HeaderTitle title="About me" />
+
       <div className={classes.container}>
         <div data-aos="fade" className={classes.aboutme}>
           Currently, i'm studying <span>computer engineering</span>👨🏻‍💻 at BUE
