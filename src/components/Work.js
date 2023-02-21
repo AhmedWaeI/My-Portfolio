@@ -11,7 +11,7 @@ function Work() {
         <HeadingTitle title="Work" />
       </div>
 
-      <div className={classes.works}>
+      <div className={classes.works} style={{ marginTop: "40px" }}>
         <div className={classes.work}>
           <div
             className={classes.background}

@@ -9,7 +9,7 @@ function Contact() {
   return (
     <div data-aos="zoom-in" style={{ marginTop: "50px" }}>
       <HeadingTitle title="Contact" />
-      <div className={classes.emailcontainer}>
+      <div className={classes.emailcontainer} style={{ marginTop: "50px" }}>
         <p>
           <span>Get in touch!</span> I’m always looking for new {""}
           <span>opportunities</span>, and my inbox is always open. Also, feel

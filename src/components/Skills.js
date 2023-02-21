@@ -74,7 +74,7 @@ function Skills() {
       }}
     >
       <HeadingTitle title="My Skills" />
-      <div className="skillsContainer">
+      <div className="skillsContainer" style={{ marginTop: "50px" }}>
         {Skills.map((Skill) => (
           <div className="innerSkillCon">
             <img src={Skill.img} alt={`${Skill.skill}`} />{" "}

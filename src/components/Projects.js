@@ -184,7 +184,7 @@ function Projects() {
       <div>
         <HeadingTitle title="Projects" />
       </div>
-      <div className="wrapper" style={{ marginTop: "80px" }}>
+      <div className="wrapper" style={{ marginTop: "100px" }}>
         <div className="team">
           {PROJECTS.map((project, i) => (
             <Project
