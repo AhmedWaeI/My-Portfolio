@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 function Contact() {
   Aos.init();
   return (
-    <div data-aos="zoom-in" style={{ marginTop: "50px" }}>
+    <div data-aos="fade" style={{ marginTop: "50px" }}>
       <HeadingTitle title="Contact" />
       <div className={classes.emailcontainer} style={{ marginTop: "50px" }}>
         <p>

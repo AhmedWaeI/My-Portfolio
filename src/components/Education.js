@@ -14,6 +14,7 @@ function Header() {
         flexDirection: "column",
         justifyContent: "center",
       }}
+      data-aos="zoom-in"
     >
       <HeadingTitle title="Education" />
       <div className={classes.uni}>

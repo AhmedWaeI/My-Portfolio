@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import me from "../assets/me.png";
 import HeaderTitle from "./HeadingTitle";
 function About() {
+  console.log(window.screen.availWidth);
   Aos.init();
   return (
     <div
@@ -17,13 +18,17 @@ function About() {
       <HeaderTitle title="About me" />
 
       <div className={classes.container}>
-        <div data-aos="fade" className={classes.aboutme}>
+        <div
+          data-aos={window.screen.availWidth > 650 ? "fade-up" : "fade"}
+          className={classes.aboutme}
+        >
           Currently, i'm studying <span>computer engineering</span>👨🏻‍💻 at BUE
           with an overall grade of <span>A+</span> and expected to graduate in
           2024. I'm experienced in Frontend and <span>Backend</span> Development
           so feel free to contact me for any new opportunities.
         </div>
         <div
+          data-aos={window.screen.availWidth > 650 ? "fade-down" : "fade"}
           className={classes.imgcontainer}
           style={{
             display: "flex",
