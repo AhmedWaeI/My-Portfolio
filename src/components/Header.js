@@ -15,8 +15,9 @@ function Header() {
           I'm a Software Engineer
         </div>
         <div data-aos="fade" className={classes.aboutme}>
-          My passion is using <span>science and technology</span> to build high
-          performance, scalable and well designed systems and
+          My passion is using{" "}
+          <span className={classes.gradient}>science and technology</span> to
+          build high performance, scalable and well designed systems and
           <span> solving </span> 🎯 hard <span>problems</span>. I also like to{" "}
           <span>
             <a

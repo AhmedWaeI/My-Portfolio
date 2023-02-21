@@ -28,12 +28,18 @@
 .myName {
   padding-top: 10px;
   display: inline-block;
-  width: 60%;
+  /* width: 60%; */
   font-size: 50px;
   color: #00e8fc;
   text-align: left;
   position: relative;
   font-family: "Righteous";
+  /* 
+  background: linear-gradient(to right, #ff00ff, #00e8fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent; */
 }
 
 .hello::after {
@@ -62,12 +68,18 @@
 .myRole {
   padding-top: 10px;
   display: inline-block;
-  width: 60%;
+  /* width: 60%; */
   font-size: 40px;
   color: #eae8ff;
   text-align: left;
   position: relative;
   font-family: "Righteous", cursive;
+
+  /* background: linear-gradient(to right, #ff00ff, #00e8fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent; */
 }
 .aboutme {
   padding-top: 10px;
@@ -86,4 +98,11 @@
 }
 .aboutme span {
   color: #00e8fc;
+}
+.gradient {
+  background: linear-gradient(to right, #ff00ff, #00e8fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }

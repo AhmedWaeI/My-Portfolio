@@ -24,7 +24,15 @@
 .linkedin {
   text-decoration: none;
   color: #00e8fc;
-  border-bottom: #00e8fc solid 2px;
+
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(to right, #ff00ff, #00e8fc) 1;
+
+  background: linear-gradient(to right, #ff00ff, #00e8fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
 .email {
   text-decoration: none;
