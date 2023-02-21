@@ -3,9 +3,25 @@ import { HashLink } from "react-router-hash-link";
 import { useState } from "react";
 function Nav() {
   const [navClass, setNavClass] = useState("navbar-links");
+  function debounce(func, wait, immediate) {
+    let timeout;
+    return function () {
+      const context = this;
+      const args = arguments;
+      const later = function () {
+        timeout = null;
+        if (!immediate) func.apply(context, args);
+      };
+      const callNow = immediate && !timeout;
+      clearTimeout(timeout);
+      timeout = setTimeout(later, wait);
+      if (callNow) func.apply(context, args);
+    };
+  }
+
   let prevScrollpos = window.pageYOffset;
 
-  window.onscroll = function () {
+  window.onscroll = debounce(function () {
     let currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
       // User is scrolling up
@@ -19,7 +35,7 @@ function Nav() {
       document.getElementById("navbar").style.opacity = "0";
     }
     prevScrollpos = currentScrollPos;
-  };
+  }, 100);
   function onClickHandler() {
     if (navClass === "navbar-links") setNavClass("navbar-links active");
     if (navClass === "navbar-links active") setNavClass("navbar-links");
