@@ -4,7 +4,6 @@ import "aos/dist/aos.css";
 import me from "../assets/me.png";
 import HeaderTitle from "./HeadingTitle";
 function About() {
-  console.log(window.screen.availWidth);
   Aos.init();
   return (
     <div
