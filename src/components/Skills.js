@@ -17,7 +17,6 @@ import docker from "../assets/Skills/docker.png";
 import kubernetes from "../assets/Skills/kubernetes.png";
 import python from "../assets/Skills/python.png";
 import firebase from "../assets/Skills/firebase.svg";
-import github from "../assets/Skills/github.png";
 import git from "../assets/Skills/git.png";
 import node from "../assets/Skills/node.png";
 import express from "../assets/Skills/express.png";
@@ -49,7 +48,6 @@ function Skills() {
     { skill: "Kubernetes", img: kubernetes },
     { skill: "Npm", img: npm },
     { skill: "Git", img: git },
-    { skill: "Github", img: github },
     { skill: "C++", img: cpp },
     { skill: "Python", img: python },
     { skill: "Firebase", img: firebase },
