@@ -10,7 +10,6 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Education from "./components/Education";
 import ScrollToTop from "./components/ScrollToTop";
-import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import { BrowserRouter, Route } from "react-router-dom";
 
