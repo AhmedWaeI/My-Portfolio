@@ -94,9 +94,9 @@
   color: #00e8fc;
 }
 .gradient {
-  background: linear-gradient(to right, #ff00ff, #00e8fc);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
+    background: linear-gradient(to right, #ff00ff, #00e8fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
 }
