@@ -6,7 +6,8 @@
   justify-content: space-between;
   align-items: center;
   color: #00e8fc;
-  background-color: #0b132b;
+  background-color: #0b132bf6;
+  backdrop-filter: blur(10px);
   width: 100%;
   z-index: 200;
   top: 0;
@@ -78,6 +79,8 @@
 
   .navbar-links ul {
     width: 100%;
+    min-height: 100vh;
+    display: flex;
     flex-direction: column;
   }
 

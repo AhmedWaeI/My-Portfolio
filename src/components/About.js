@@ -14,20 +14,19 @@ function About() {
         justifyContent: "center",
       }}
     >
-      <HeaderTitle title="About me" />
+      <div data-aos="fade">
+        <HeaderTitle title="About me" />
+      </div>
 
       <div className={classes.container}>
-        <div
-          data-aos={window.screen.availWidth > 650 ? "fade-up" : "fade"}
-          className={classes.aboutme}
-        >
+        <div data-aos="fade-up" className={classes.aboutme}>
           Currently, i'm studying <span>computer engineering</span>👨🏻‍💻 at BUE
           with an overall grade of <span>A+</span> and expected to graduate in
           2024. I'm experienced in Frontend and <span>Backend</span> Development
           so feel free to contact me for any new opportunities.
         </div>
         <div
-          data-aos={window.screen.availWidth > 650 ? "fade-down" : "fade"}
+          data-aos="fade-down"
           className={classes.imgcontainer}
           style={{
             display: "flex",

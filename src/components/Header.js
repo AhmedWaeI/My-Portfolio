@@ -3,7 +3,7 @@ import classes from "./Header.module.css";
 
 function Header() {
   return (
-    <div style={{}}>
+    <div>
       <div className={classes.intro}>
         <div data-aos="fade-right" className={classes.hello}>
           Hi, my name is

@@ -4,12 +4,13 @@ import Header from "./components/Header";
 import classes from "./App.module.css";
 import About from "./components/About";
 import Work from "./components/Work";
-import Projects from "./components/Projects";
+import ProjectCards from "./components/ProjectCards";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Education from "./components/Education";
 import ScrollToTop from "./components/ScrollToTop";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import { BrowserRouter, Route } from "react-router-dom";
 
@@ -23,7 +24,8 @@ function App() {
           <About />
           <Education />
           <Work />
-          <Projects />
+          {/* <Projects /> */}
+          <ProjectCards />
           <Skills />
           <div
             style={{

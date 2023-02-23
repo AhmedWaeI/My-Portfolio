@@ -11,22 +11,18 @@ import css from "../assets/Skills/css.png";
 import scss from "../assets/Skills/sass.png";
 import html from "../assets/Skills/html.png";
 import npm from "../assets/Skills/npm.png";
-import router from "../assets/Skills/router.svg";
 import redux from "../assets/Skills/redux.svg";
 import rn from "../assets/Skills/rn.png";
 import docker from "../assets/Skills/docker.png";
 import kubernetes from "../assets/Skills/kubernetes.png";
 import python from "../assets/Skills/python.png";
 import firebase from "../assets/Skills/firebase.svg";
-import vs from "../assets/Skills/vs.svg";
-import vscode from "../assets/Skills/vscode.svg";
 import github from "../assets/Skills/github.png";
 import git from "../assets/Skills/git.png";
 import node from "../assets/Skills/node.png";
 import express from "../assets/Skills/express.png";
 import mongo from "../assets/Skills/mongo.png";
 import mongoose from "../assets/Skills/mongoose.png";
-import postman from "../assets/Skills/postman.png";
 import mysql from "../assets/Skills/mysql.png";
 import sql from "../assets/Skills/sql.png";
 
@@ -42,7 +38,6 @@ function Skills() {
     { skill: "Typescript", img: ts },
     { skill: "React", img: react },
     { skill: "Redux", img: redux },
-    { skill: "Router", img: router },
     { skill: "React Native", img: rn },
     { skill: "Node", img: node },
     { skill: "Express", img: express },
@@ -52,12 +47,9 @@ function Skills() {
     { skill: "MySQL", img: mysql },
     { skill: "Docker", img: docker },
     { skill: "Kubernetes", img: kubernetes },
-    { skill: "Postman", img: postman },
     { skill: "Npm", img: npm },
     { skill: "Git", img: git },
     { skill: "Github", img: github },
-    { skill: "Vscode", img: vscode },
-    { skill: "Vs", img: vs },
     { skill: "C++", img: cpp },
     { skill: "Python", img: python },
     { skill: "Firebase", img: firebase },
@@ -73,8 +65,9 @@ function Skills() {
         justifyContent: "center",
       }}
     >
+      <div className="skillsContainer" style={{ marginTop: "70px" }}></div>
       <HeadingTitle title="My Skills" />
-      <div className="skillsContainer" style={{ marginTop: "50px" }}>
+      <div className="skillsContainer" style={{ marginTop: "30px" }}>
         {Skills.map((Skill) => (
           <div className="innerSkillCon">
             <img src={Skill.img} alt={`${Skill.skill}`} />{" "}

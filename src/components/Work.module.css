@@ -35,6 +35,7 @@
     width: 100%;
     margin: auto;
     margin-bottom: 20px;
+    height: 100%;
   }
 }
 
@@ -79,7 +80,9 @@
   margin-left: 0.75em;
   text-align: left;
   margin-top: 10px;
+  padding-bottom: 30px;
 }
+
 .points ul li {
   margin-top: 15px;
 }

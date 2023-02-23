@@ -2,10 +2,12 @@ import "./Nav.css";
 import { HashLink } from "react-router-hash-link";
 import { useState } from "react";
 function Nav() {
+  const [open, setOpen] = useState(false);
   const [navClass, setNavClass] = useState("navbar-links");
   let prevScrollpos = window.pageYOffset;
 
   window.onscroll = function () {
+    closeNav();
     let currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
       // User is scrolling up
@@ -21,35 +23,69 @@ function Nav() {
     prevScrollpos = currentScrollPos;
   };
   function onClickHandler() {
+    setOpen((open) => !open);
     if (navClass === "navbar-links") setNavClass("navbar-links active");
     if (navClass === "navbar-links active") setNavClass("navbar-links");
+  }
+  function closeNav() {
+    setNavClass("navbar-links");
+    setOpen(false);
   }
   return (
     <nav className="navbar" id="navbar">
       <div className="brand-title">Levw</div>
-      <span class="toggle-button" onClick={onClickHandler}>
-        <span className="bar"></span>
-        <span className="bar"></span>
-        <span className="bar"></span>
-      </span>
+      {!open ? (
+        <span class="toggle-button" onClick={onClickHandler}>
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+        </span>
+      ) : (
+        <span class="toggle-button" onClick={onClickHandler}>
+          <i
+            class="fas fa-times close-icon fa-2x"
+            style={{ color: "white", marginLeft: "5px" }}
+          ></i>
+        </span>
+      )}
       <div className={navClass}>
         <ul>
-          <HashLink className="remove" smooth to="/#about">
+          <HashLink
+            className="remove"
+            smooth
+            to="/#about"
+            onClick={closeNav}
+            style={
+              window.screen.availWidth <= 650
+                ? { marginTop: "22vh" }
+                : { marginTop: "0px" }
+            }
+          >
             <li>About</li>
           </HashLink>
-          <HashLink className="remove" smooth to="/#education">
+          <HashLink
+            className="remove"
+            smooth
+            to="/#education"
+            onClick={closeNav}
+          >
             <li>Education</li>
           </HashLink>
-          <HashLink className="remove" smooth to="/#work">
+          <HashLink className="remove" smooth to="/#work" onClick={closeNav}>
             <li>Work</li>
           </HashLink>
-          <HashLink className="remove" smooth to="/#projects">
+          <HashLink
+            className="remove"
+            smooth
+            to="/#projects"
+            onClick={closeNav}
+          >
             <li>Projects</li>
           </HashLink>
-          <HashLink className="remove" smooth to="/#skills">
+          <HashLink className="remove" smooth to="/#skills" onClick={closeNav}>
             <li>Skills</li>
           </HashLink>
-          <HashLink className="remove" smooth to="/#contact">
+          <HashLink className="remove" smooth to="/#contact" onClick={closeNav}>
             <li>Contact</li>
           </HashLink>
         </ul>
