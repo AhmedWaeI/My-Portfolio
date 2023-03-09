@@ -36,11 +36,12 @@
   display: block;
   color: #eae8ff;
   padding: 1rem;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .navbar-links li:hover {
   color: #00e8fc;
-  border-bottom: #00e8fc 1px solid;
+  /* border-bottom: #00e8fc 1px solid; */
 }
 
 .toggle-button {
