@@ -5,16 +5,32 @@ function Header() {
   return (
     <div>
       <div className={classes.intro}>
-        <div data-aos="fade-right" className={classes.hello}>
+        <div
+          data-aos="fade-down"
+          data-aos-duration="1500"
+          className={classes.hello}
+        >
           Hi, my name is
         </div>
-        <div data-aos="fade-right" className={classes.myName}>
+        <div
+          data-aos="fade-down"
+          data-aos-duration="1500"
+          className={classes.myName}
+        >
           Abdelrahman Mostafa
         </div>
-        <div data-aos="fade-right" className={classes.myRole}>
+        <div
+          data-aos="fade-down"
+          data-aos-duration="1500"
+          className={classes.myRole}
+        >
           I'm a Software Engineer
         </div>
-        <div data-aos="fade" className={classes.aboutme}>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          className={classes.aboutme}
+        >
           My passion is using{" "}
           <span className={classes.gradient}>science and technology</span> to
           build high performance, scalable and well designed systems and

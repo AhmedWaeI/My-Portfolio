@@ -7,12 +7,20 @@ function Work() {
   Aos.init();
   return (
     <div>
-      <div data-aos="fade">
+      <div
+        data-aos="fade-down"
+        data-aos-duration="1000"
+        style={{ marginTop: "100px" }}
+      >
         <HeadingTitle title="Work" />
       </div>
 
-      <div className={classes.works} style={{ marginTop: "40px" }}>
-        <div className={classes.work} data-aos="fade">
+      <div className={classes.works} style={{ marginTop: "30px" }}>
+        <div
+          className={classes.work}
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div
             className={classes.background}
             style={{ backgroundColor: "#E60000" }}
@@ -47,7 +55,11 @@ function Work() {
           </div>
         </div>
 
-        <div className={classes.work} data-aos="fade">
+        <div
+          className={classes.work}
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div
             className={classes.background}
             style={{ backgroundColor: "#222222" }}
@@ -97,7 +109,11 @@ function Work() {
           </div>
         </div>
 
-        <div className={classes.work} data-aos="fade">
+        <div
+          className={classes.work}
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div
             className={classes.background}
             style={{ backgroundColor: "#2E7E3C" }}

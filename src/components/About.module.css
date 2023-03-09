@@ -4,6 +4,7 @@
   flex-direction: row;
   width: 80%;
   margin: auto;
+  margin-top: -20px;
 }
 @media screen and (max-width: 650px) {
   .container {

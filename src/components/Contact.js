@@ -7,9 +7,16 @@ import "aos/dist/aos.css";
 function Contact() {
   Aos.init();
   return (
-    <div data-aos="fade" style={{ marginTop: "50px" }}>
-      <HeadingTitle title="Contact" />
-      <div className={classes.emailcontainer} style={{ marginTop: "50px" }}>
+    <div style={{ marginTop: "60px" }}>
+      <div data-aos="fade-down" data-aos-duration="1000">
+        <HeadingTitle title="Contact" />
+      </div>
+      <div
+        className={classes.emailcontainer}
+        style={{ marginTop: "40px" }}
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         <p>
           <span>Get in touch!</span> I’m always looking for new {""}
           <span>opportunities</span>, and my inbox is always open. Also, feel

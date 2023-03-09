@@ -55,17 +55,23 @@ function Skills() {
   return (
     <div
       className="parentSkills"
-      data-aos="zoom-in"
       style={{
         minHeight: "100vh",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
       }}
+      data-aos="fade-down"
+      data-aos-duration="1000"
     >
-      <div className="skillsContainer" style={{ marginTop: "70px" }}></div>
+      <div className="skillsContainer" style={{ marginTop: "160px" }}></div>
       <HeadingTitle title="My Skills" />
-      <div className="skillsContainer" style={{ marginTop: "30px" }}>
+      <div
+        className="skillsContainer"
+        style={{ marginTop: "10px" }}
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         {Skills.map((Skill) => (
           <div className="innerSkillCon">
             <img src={Skill.img} alt={`${Skill.skill}`} />{" "}

@@ -14,10 +14,15 @@ function Header() {
         flexDirection: "column",
         justifyContent: "center",
       }}
-      data-aos="zoom-in"
     >
-      <HeadingTitle title="Education" />
-      <div className={classes.uni}>
+      <div data-aos="fade-down" data-aos-duration="1000">
+        <HeadingTitle
+          title="Education"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        />
+      </div>
+      <div className={classes.uni} data-aos="fade-up" data-aos-duration="1000">
         <div className={classes.bueLogo}>
           <img alt="BUE Logo" src={bue}></img>
         </div>

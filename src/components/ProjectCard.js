@@ -6,7 +6,11 @@ import Aos from "aos";
 function ProjectCards(props) {
   Aos.init();
   return (
-    <div className={classes.container} data-aos="fade">
+    <div
+      className={classes.container}
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
       <div className={classes.card}>
         <div className={classes.filter}></div>
         <div className={classes.text}>

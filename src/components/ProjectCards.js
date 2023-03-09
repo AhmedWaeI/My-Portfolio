@@ -65,11 +65,11 @@ function ProjectCards() {
   Aos.init();
   return (
     <div>
-      <div style={{ marginTop: "150px" }}></div>
-      <div data-aos="fade">
+      <div style={{ marginTop: "200px" }}></div>
+      <div data-aos="fade-down" data-aos-duration="1000">
         <HeadingTitle title="Projects" />
       </div>
-      <div style={{ marginTop: "50px" }}></div>
+      <div style={{ marginTop: "30px" }}></div>
       <div className={classes.projects}>
         {projects.map((project, i) => (
           <ProjectCard
