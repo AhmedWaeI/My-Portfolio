@@ -63,11 +63,16 @@
     font-size: 60px;
   }
 }
-
+@media screen and (max-width: 450px) {
+  .myName {
+    width: 100%;
+    font-size: 50px;
+  }
+}
 @media screen and (max-width: 360px) {
   .myName {
     width: 100%;
-    font-size: 35px;
+    font-size: 40px;
   }
 }
 
@@ -83,7 +88,17 @@
 }
 @media screen and (max-width: 650px) {
   .myRole {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .myRole {
     font-size: 40px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .myRole {
+    font-size: 30px;
   }
 }
 .aboutme {
