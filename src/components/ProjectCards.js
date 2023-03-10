@@ -65,7 +65,7 @@ function ProjectCards() {
   Aos.init();
   return (
     <div>
-      <div style={{ marginTop: "150px" }}></div>
+      <div style={{ marginTop: "200px" }}></div>
       <div data-aos="fade-down" data-aos-duration="1000">
         <HeadingTitle title="Projects" />
       </div>

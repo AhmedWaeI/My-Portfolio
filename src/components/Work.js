@@ -10,7 +10,7 @@ function Work() {
       <div
         data-aos="fade-down"
         data-aos-duration="1000"
-        style={{ marginTop: "40px" }}
+        style={{ marginTop: "50px" }}
       >
         <HeadingTitle title="Work" />
       </div>
