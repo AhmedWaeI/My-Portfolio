@@ -64,7 +64,7 @@ function Skills() {
       data-aos="fade-down"
       data-aos-duration="1000"
     >
-      <div className="skillsContainer" style={{ marginTop: "200px" }}></div>
+      <div className="skillsContainer" style={{ marginTop: "150px" }}></div>
       <HeadingTitle title="Skills" />
       <div
         className="skillsContainer"

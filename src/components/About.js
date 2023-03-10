@@ -55,9 +55,8 @@ function About() {
             }
           />
         </div>
+        <div id="education"></div>
       </div>
-
-      <div id="education"></div>
     </div>
   );
 }
