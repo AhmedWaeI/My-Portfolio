@@ -97,7 +97,7 @@ function Work() {
                   rel="noreferrer"
                   target="_blank"
                   style={{
-                    color: "#004B63",
+                    color: "#00E7FB",
                   }}
                   href="https://drive.google.com/file/d/1Ez9lXfP-EuewYklkM14MLkqb2adRQVB9/view?usp=sharing"
                 >
@@ -134,7 +134,7 @@ function Work() {
                 Built&nbsp;
                 <a
                   style={{
-                    color: "#004B63",
+                    color: "#00E7FB",
                   }}
                   href="https://omima.art"
                   target="_blank"

@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 function Contact() {
   Aos.init();
   return (
-    <div style={{ marginTop: "60px" }}>
+    <div style={{ marginTop: "100px" }}>
       <div data-aos="fade-down" data-aos-duration="1000">
         <HeadingTitle title="Contact" />
       </div>

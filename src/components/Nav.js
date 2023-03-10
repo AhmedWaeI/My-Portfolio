@@ -3,11 +3,13 @@ import { HashLink } from "react-router-hash-link";
 import { useState } from "react";
 function Nav() {
   const [open, setOpen] = useState(false);
+  const [scrollY, setScrollY] = useState(window.scrollY);
   const [navClass, setNavClass] = useState("navbar-links");
   let prevScrollpos = window.pageYOffset;
 
   window.onscroll = function () {
     closeNav();
+    setScrollY(window.scrollY);
     let currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
       // User is scrolling up
@@ -32,7 +34,15 @@ function Nav() {
     setOpen(false);
   }
   return (
-    <nav className="navbar" id="navbar">
+    <nav
+      className="navbar"
+      id="navbar"
+      style={
+        scrollY !== 0
+          ? { boxShadow: "rgba(4, 2, 27, 0.603) 0px 10px 30px -10px" }
+          : {}
+      }
+    >
       <div className="brand-title">Levw</div>
       {!open ? (
         <span class="toggle-button" onClick={onClickHandler}>

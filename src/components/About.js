@@ -15,7 +15,7 @@ function About() {
       }}
     >
       <div data-aos="fade-down" data-aos-duration="1000">
-        <HeaderTitle title="About me" />
+        <HeaderTitle title="About" />
       </div>
 
       <div
@@ -40,11 +40,19 @@ function About() {
           <img
             src={me}
             alt="Levw"
-            style={{
-              width: "200px",
-              height: "200px",
-              borderRadius: "15px",
-            }}
+            style={
+              window.screen.availWidth > 800
+                ? {
+                    width: "300px",
+                    height: "300px",
+                    borderRadius: "15px",
+                  }
+                : {
+                    width: "250px",
+                    height: "250px",
+                    borderRadius: "15px",
+                  }
+            }
           />
         </div>
       </div>
