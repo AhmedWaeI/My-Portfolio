@@ -7,28 +7,28 @@ function Header() {
       <div className={classes.intro}>
         <div
           data-aos="fade-down"
-          data-aos-duration="1500"
+          data-aos-duration="1400"
           className={classes.hello}
         >
           Hi, my name is
         </div>
         <div
           data-aos="fade-down"
-          data-aos-duration="1500"
+          data-aos-duration="1200"
           className={classes.myName}
         >
           Abdelrahman Mostafa
         </div>
         <div
           data-aos="fade-down"
-          data-aos-duration="1500"
+          data-aos-duration="1000"
           className={classes.myRole}
         >
           I'm a Software Engineer
         </div>
         <div
           data-aos="fade-up"
-          data-aos-duration="1500"
+          data-aos-duration="1400"
           className={classes.aboutme}
         >
           My passion is using{" "}

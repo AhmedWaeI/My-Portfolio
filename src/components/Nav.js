@@ -71,7 +71,9 @@ function Nav() {
                 : { marginTop: "0px" }
             }
           >
-            <li>About</li>
+            <li data-aos="fade-down" data-aos-duration="1000">
+              About
+            </li>
           </HashLink>
           <HashLink
             className="remove"
@@ -79,10 +81,14 @@ function Nav() {
             to="/#education"
             onClick={closeNav}
           >
-            <li>Education</li>
+            <li data-aos="fade-down" data-aos-duration="1200">
+              Education
+            </li>
           </HashLink>
           <HashLink className="remove" smooth to="/#work" onClick={closeNav}>
-            <li>Work</li>
+            <li data-aos="fade-down" data-aos-duration="1400">
+              Work
+            </li>
           </HashLink>
           <HashLink
             className="remove"
@@ -90,13 +96,19 @@ function Nav() {
             to="/#projects"
             onClick={closeNav}
           >
-            <li>Projects</li>
+            <li data-aos="fade-down" data-aos-duration="1600">
+              Projects
+            </li>
           </HashLink>
           <HashLink className="remove" smooth to="/#skills" onClick={closeNav}>
-            <li>Skills</li>
+            <li data-aos="fade-down" data-aos-duration="1800">
+              Skills
+            </li>
           </HashLink>
           <HashLink className="remove" smooth to="/#contact" onClick={closeNav}>
-            <li>Contact</li>
+            <li data-aos="fade-down" data-aos-duration="2000">
+              Contact
+            </li>
           </HashLink>
         </ul>
       </div>

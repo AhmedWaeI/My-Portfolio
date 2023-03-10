@@ -7,7 +7,7 @@
   justify-content: center;
   min-height: 100vh;
   width: 80%;
-  margin: auto;
+  margin: 0 auto;
 }
 @media screen and (max-width: 650px) {
   .intro {
@@ -29,7 +29,7 @@
   padding-top: 10px;
   display: inline-block;
   /* width: 60%; */
-  font-size: 50px;
+  font-size: 80px;
   color: #00e8fc;
   text-align: left;
   position: relative;
@@ -57,6 +57,12 @@
   margin-left: 8px; /* adjust this value to add some space between the name and the icon */
   /* margin-top: 25px; */
 }
+@media screen and (max-width: 650px) {
+  .myName {
+    width: 100%;
+    font-size: 60px;
+  }
+}
 
 @media screen and (max-width: 360px) {
   .myName {
@@ -69,17 +75,22 @@
   padding-top: 10px;
   display: inline-block;
   /* width: 60%; */
-  font-size: 40px;
+  font-size: 60px;
   color: #eae8ff;
   text-align: left;
   position: relative;
   font-family: "Righteous", cursive;
 }
+@media screen and (max-width: 650px) {
+  .myRole {
+    font-size: 40px;
+  }
+}
 .aboutme {
   padding-top: 10px;
   color: #eae8ff;
   font-family: "Roboto", sans-serif;
-
+  max-width: 1000px;
   font-size: 20px;
 }
 @media screen and (max-width: 650px) {
@@ -94,9 +105,9 @@
   color: #00e8fc;
 }
 .gradient {
-    background: linear-gradient(to right, #ff00ff, #00e8fc);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    color: transparent;
+  background: linear-gradient(to right, #ff00ff, #00e8fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
