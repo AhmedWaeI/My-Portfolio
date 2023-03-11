@@ -11,13 +11,8 @@ function Contact() {
       <div data-aos="fade-down" data-aos-duration="1000">
         <HeadingTitle title="Contact" />
       </div>
-      <div
-        className={classes.emailcontainer}
-        style={{ marginTop: "40px" }}
-        data-aos="fade-up"
-        data-aos-duration="1000"
-      >
-        <p>
+      <div className={classes.emailcontainer} style={{ marginTop: "40px" }}>
+        <p data-aos="fade-up" data-aos-duration="1000">
           <span>Get in touch!</span> I’m always looking for new {""}
           <span>opportunities</span>, and my inbox is always open. Also, feel
           free to contact me via{" "}
@@ -28,7 +23,12 @@ function Contact() {
             Linkedin
           </a>
         </p>
-        <a className={classes.email} href="mailto:levwtech@gmail.com">
+        <a
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          className={classes.email}
+          href="mailto:levwtech@gmail.com"
+        >
           Email
         </a>
       </div>
