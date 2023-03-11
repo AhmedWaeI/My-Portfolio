@@ -38,6 +38,12 @@
   color: #eae8ff;
   padding: 1rem;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  margin-bottom: 5px;
+}
+@media screen and (max-width: 650px) {
+  .navbar-links li {
+    margin-bottom: 0px;
+  }
 }
 
 .navbar-links li:hover {

@@ -23,14 +23,15 @@ function Contact() {
             Linkedin
           </a>
         </p>
-        <a
+        <p
           data-aos="fade-up"
           data-aos-duration="1500"
-          className={classes.email}
-          href="mailto:levwtech@gmail.com"
+          style={{ marginTop: "40px" }}
         >
-          Email
-        </a>
+          <a className={classes.email} href="mailto:levwtech@gmail.com">
+            Email
+          </a>
+        </p>
       </div>
     </div>
   );

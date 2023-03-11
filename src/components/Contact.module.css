@@ -50,8 +50,7 @@
   animation-direction: alternate;
 }
 .email:hover {
-  /* transform: translateX(10px);
-  box-shadow: 3px 5px #00E8FC; */
+  /* box-shadow: 2px 2px #00e8fc; */
   /* animation-play-state: paused; */
 
   background-color: #1b2541;

@@ -71,9 +71,9 @@ function Nav() {
                 : { marginTop: "0px" }
             }
           >
-            <li data-aos="fade-down" data-aos-duration="1000">
-              About
-            </li>
+            <div data-aos="fade-down" data-aos-duration="1000">
+              <li>About</li>
+            </div>
           </HashLink>
           <HashLink
             className="remove"
@@ -81,14 +81,14 @@ function Nav() {
             to="/#education"
             onClick={closeNav}
           >
-            <li data-aos="fade-down" data-aos-duration="1200">
-              Education
-            </li>
+            <div data-aos="fade-down" data-aos-duration="1200">
+              <li>Education</li>
+            </div>
           </HashLink>
           <HashLink className="remove" smooth to="/#work" onClick={closeNav}>
-            <li data-aos="fade-down" data-aos-duration="1400">
-              Work
-            </li>
+            <div data-aos="fade-down" data-aos-duration="1400">
+              <li>Work</li>
+            </div>
           </HashLink>
           <HashLink
             className="remove"
@@ -96,19 +96,19 @@ function Nav() {
             to="/#projects"
             onClick={closeNav}
           >
-            <li data-aos="fade-down" data-aos-duration="1600">
-              Projects
-            </li>
+            <div data-aos="fade-down" data-aos-duration="1600">
+              <li>Projects</li>
+            </div>
           </HashLink>
           <HashLink className="remove" smooth to="/#skills" onClick={closeNav}>
-            <li data-aos="fade-down" data-aos-duration="1800">
-              Skills
-            </li>
+            <div data-aos="fade-down" data-aos-duration="1800">
+              <li>Skills</li>
+            </div>
           </HashLink>
           <HashLink className="remove" smooth to="/#contact" onClick={closeNav}>
-            <li data-aos="fade-down" data-aos-duration="2000">
-              Contact
-            </li>
+            <div data-aos="fade-down" data-aos-duration="2000">
+              <li>Contact</li>
+            </div>
           </HashLink>
         </ul>
       </div>
