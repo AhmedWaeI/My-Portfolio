@@ -6,7 +6,10 @@ import Aos from "aos";
 function ProjectCards(props) {
   Aos.init();
   return (
-    <div
+    <a
+      href={props.url}
+      target="_blank"
+      rel="noreferrer"
       className={classes.container}
       data-aos="fade-up"
       data-aos-duration="1000"
@@ -34,7 +37,7 @@ function ProjectCards(props) {
         </div>
         <img src={props.img} alt="Shop"></img>
       </div>
-    </div>
+    </a>
   );
 }
 
