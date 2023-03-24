@@ -37,7 +37,7 @@ function Header() {
           <span> solving </span> 🎯 hard <span>problems</span>. I also like to{" "}
           <span>
             <a
-              href="https://dev.to/levw"
+              href="https://blog.levwtech.com"
               style={{
                 color: "#00E8FC",
                 fontWeight: "bold",
