@@ -34,7 +34,7 @@ function Work() {
             ></img>
           </div>
           <div className={classes.role}>Software Engineer Intern</div>
-          <div className={classes.date}>1st August 2022 – 31st August 2022</div>
+          <div className={classes.date}>August 2022</div>
           <div className={classes.points}>
             <ul>
               <li>
@@ -43,9 +43,10 @@ function Work() {
                 Node.js, and SQL.
               </li>
               <li>
-                Implemented interactive charts, graphs, and a Google Map
-                integration to visualize network performance over time, leading
-                to enhanced data analysis and decision making.
+                Implemented backend, frontend solutions and API design for
+                interactive charts, graphs, and a Google Map integration to
+                visualize network performance over time, leading to enhanced
+                data analysis and decision making.
               </li>
               <li>
                 Improved KPI checking efficiency, reducing analysis and checking
