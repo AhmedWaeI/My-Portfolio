@@ -123,7 +123,7 @@ function Work() {
           </div>
           <div className={classes.companyLogo}>
             <img
-              src="https://www.coachfortomorrow.com/wp-content/uploads/2017/11/green-self-employed-icon.png"
+              src="https://i.ibb.co/prLtSDn/download.png"
               alt="Self Employed logo"
             ></img>
           </div>
