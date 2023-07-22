@@ -23,7 +23,7 @@ function Work() {
         >
           <div
             className={classes.background}
-            style={{ backgroundColor: "#FFFFFF" }}
+            style={{ backgroundColor: "#E30613" }}
           >
             <div className={classes.companyName}>Bosta</div>
           </div>
