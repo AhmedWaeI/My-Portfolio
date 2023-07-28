@@ -92,7 +92,7 @@
   margin-top: 10px;
 }
 .points ul {
-  list-style-position: inside;
+  /* list-style-position: inside; */
   margin-left: 0.75em;
   text-align: left;
   margin-top: 10px;
@@ -102,8 +102,10 @@
   flex-direction: column;
   justify-content: space-between;
   font-weight: 500;
+  padding-left: 0; /* Remove default padding to prevent offset */
 }
 
 .points ul li {
   margin-top: 15px;
+  margin-left: 30px; /* Add some space between bullet point and text */
 }
