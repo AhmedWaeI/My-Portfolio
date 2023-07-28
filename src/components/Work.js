@@ -2,7 +2,8 @@ import classes from "./Work.module.css";
 import HeadingTitle from "./HeadingTitle";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import bind from "../assets/bind.svg";
+import bind from "../assets/Companies/bind.svg";
+import bosta from "../assets/Companies/bosta.png";
 function Work() {
   Aos.init();
   return (
@@ -22,16 +23,15 @@ function Work() {
           data-aos-duration="1000"
         >
           <div
-            className={classes.background}
-            style={{ backgroundColor: "#E30613" }}
+            className={classes.background2}
+            style={{ backgroundColor: "#FFFFFF" }}
           >
-            <div className={classes.companyName}>Bosta</div>
+            <div className={classes.companyName} style={{ color: "#ba020d" }}>
+              Bosta
+            </div>
           </div>
           <div className={classes.companyLogo}>
-            <img
-              src="https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/255061508_4623113987749705_8071998602237133252_n.png?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGXDuwGpjGRITYgjq9f_X0qW71zOvHdSt9bvXM68d1K3_znrndcjVf451KiD-xSUFrcRRy2BcPazb47lYg_W8KV&_nc_ohc=4i7WpJps7IwAX-EYgem&_nc_ht=scontent.fcai19-2.fna&oh=00_AfCV2ZWHrkJ_6sFsW059I0oBxiiOMSLb-EzReB9mhfpAxQ&oe=64C076D8"
-              alt="Bosta logo"
-            ></img>
+            <img src={bosta} alt="Bosta logo"></img>
           </div>
           <div className={classes.role}>Software Engineer Intern</div>
           <div className={classes.date}>July 2023 - September 2023</div>

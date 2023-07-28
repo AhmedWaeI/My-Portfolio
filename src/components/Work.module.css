@@ -71,6 +71,15 @@
   height: 150px;
   border-radius: 10px 10px 0 0;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2));
+  color: rgb(197, 6, 19) 3;
+}
+.background2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  border-radius: 10px 10px 0 0;
+  background: linear-gradient(rgba(117, 116, 116, 0.4), rgba(92, 91, 91, 0.2));
 }
 .role {
   text-align: center;
