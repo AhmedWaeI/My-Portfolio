@@ -2,7 +2,8 @@ import classes from "./Work.module.css";
 import HeadingTitle from "./HeadingTitle";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import bind from "../assets/bind.svg";
+import bind from "../assets/Companies/bind.svg";
+import bosta from "../assets/Companies/bosta.png";
 function Work() {
   Aos.init();
   return (
@@ -16,6 +17,30 @@ function Work() {
       </div>
 
       <div className={classes.works} style={{ marginTop: "30px" }}>
+        <div
+          className={classes.work}
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div
+            className={classes.background2}
+            style={{ backgroundColor: "#FFFFFF" }}
+          >
+            <div className={classes.companyName} style={{ color: "#ba020d" }}>
+              Bosta
+            </div>
+          </div>
+          <div className={classes.companyLogo}>
+            <img src={bosta} alt="Bosta logo"></img>
+          </div>
+          <div className={classes.role}>Software Engineer Intern</div>
+          <div className={classes.date}>July 2023 - September 2023</div>
+          <div className={classes.points}>
+            <ul>
+              <li>Working in the backend team (fullfillment squad).</li>
+            </ul>
+          </div>
+        </div>
         <div
           className={classes.work}
           data-aos="fade-up"
