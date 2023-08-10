@@ -17,7 +17,7 @@ function Header() {
           data-aos-duration="1200"
           className={classes.myName}
         >
-          Abdelrahman Mostafa
+          Ahmed Wael
         </div>
         <div
           data-aos="fade-down"
